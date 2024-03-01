@@ -7,13 +7,15 @@
     left: 50%;
     transform: translateX(-50%);
     margin: auto;
-    background-color: rgba(24, 24, 29, 0.3);
+    /* background-color:#18181D4D; */
     border-radius: 12px;
     backdrop-filter: blur(2px);
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 12px;
+    background-color: #18181D4D;
+    box-shadow: 0px 8px 5px 0px rgba(0, 0, 0, 0.07) inset;
 }
 
 .leftNavbar ul, .rightNavbar ul{
@@ -47,4 +49,10 @@
 }
 .rightNavbar ul {
     gap: 24px;
+}
+@media screen and (max-width: 768px) {
+    .navbar{
+        display: none;
+    }
+    
 }

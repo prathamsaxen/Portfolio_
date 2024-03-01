@@ -1,0 +1,51 @@
+.card{
+    border: 1px;
+    margin-top: 32px;
+    height: 565px;
+    border-radius: 32px;
+    background-color: rgba(230, 230, 230, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin-bottom: 20px;
+   gap: 32px;
+}
+.leftCard{
+    /* border: 2px solid black; */
+    width: 50%;
+    height: 100%;
+    padding-left: 60px;
+    padding-top: 60px;
+}
+.leftCard img{
+    width: 70px;
+    height: 70px;
+}
+.leftCard h2{
+    font-family: "Inter";
+    color: rgba(255, 255, 255, 1) !important;
+    font-weight: 800 !important;
+    font-size: 32px !important;
+    /* color: red !important; */
+    line-height: 38.37px !important;
+    margin-top: 16px;
+}
+.leftCard p{
+    color: rgba(193, 193, 193, 1);
+font-family: "Inter";
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+margin-top: 16px;
+}
+.leftCard a{
+    display: block;
+    margin-top: 100px;
+}
+.rightCard{
+    height: 100%;
+    width: 50%;
+}
+
