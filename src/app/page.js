@@ -25,13 +25,13 @@ export default function Home() {
               <button>Get in touch</button>
             </div>
           </div>
-          <div className={styles.rightInfoFrame}>
+          {/* <div className={styles.rightInfoFrame}>
             <Lottie
               animationData={animation}
               loop={true}
               className={styles.anim}
             />
-          </div>
+          </div> */}
         </div>
       </div>
       <div className={styles.selectedWork}>
