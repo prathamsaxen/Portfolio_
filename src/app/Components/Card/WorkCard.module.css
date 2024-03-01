@@ -9,6 +9,8 @@
     align-items: center;
    margin-bottom: 20px;
    gap: 32px;
+   overflow: hidden;
+
 }
 .leftCard{
     /* border: 2px solid black; */
@@ -18,8 +20,7 @@
     padding-top: 60px;
 }
 .leftCard img{
-    width: 70px;
-    height: 70px;
+    width: 40%;
 }
 .leftCard h2{
     font-family: "Inter";
@@ -42,10 +43,32 @@ margin-top: 16px;
 }
 .leftCard a{
     display: block;
-    margin-top: 100px;
+    margin-top: 70px;
+    display: flex;
+    gap: 5px;
+    text-decoration: none; 
+    font-family: "Inter";
+    font-size: 18px !important;
+    font-weight: 500; 
+    color: rgba(255, 255, 255, 1);
+}
+.leftCard a:hover{
+    cursor: pointer;
 }
 .rightCard{
     height: 100%;
     width: 50%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 250px;
+}
+.rightCard img{
+    /* width: 80%; */
+    height: 100%;
+    transform: rotate(16deg); /* Rotate the image 90 degrees clockwise */
+
+    
 }
 
