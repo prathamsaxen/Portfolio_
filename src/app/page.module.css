@@ -106,7 +106,7 @@
     flex-direction: column;
     gap: 32px;
 }
-.knowMeFrame {
+.knowMeFrame h2{
     font-family: "Inter";
     font-weight: 700;
     font-size: 48px;
@@ -116,7 +116,7 @@
 .knowCards{
 
     /* border: 2px solid red; */
-    height: 1025px;
+    /* height: 1025px; */
     min-width: fit-content;
     display: flex;
     flex-wrap: wrap;
@@ -197,5 +197,30 @@
         font-size: 15
         px;
         line-height: 20px;
+    }
+    .selectedWork h2{
+        font-size: 32px;
+    }
+    .knowMeFrame h2{
+        font-size: 32px;
+    }
+    .contactFrame {
+        flex-direction: column;
+        gap: 34px;
+    }
+    .contentContactFrame{
+        width: 100%;
+    }
+    .contentContactFrame h2{
+        font-size: 32px;
+        text-align: center;
+    }
+    .contentContactFrame p{
+        text-align: center;
+        font-size: 15px;
+    }
+    .contactFrame button{
+        width: 100%;
+        justify-content: center;
     }
 }

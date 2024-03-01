@@ -69,3 +69,25 @@
     z-index: -1;
     
 }
+@media screen and (max-width: 768px) {
+    .gradient{
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        background: none;
+    }
+    .footer{
+        background: url("../../../../public/gradient.svg");
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 40px;
+    padding-bottom: 30px;
+    }
+    .rightFooter {
+        flex-direction: column-reverse;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 20px;
+    }
+}

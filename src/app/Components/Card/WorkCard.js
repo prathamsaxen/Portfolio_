@@ -8,7 +8,7 @@ function WorkCard(props) {
         <h2>{props.data.heading}</h2>
         <p>{props.data.description}</p>
         <a href={props.data.link}>
-          Download App {" "}
+          Visit Site {" "}
           <svg
             width="24"
             height="24"
@@ -27,7 +27,7 @@ function WorkCard(props) {
         </a>
       </div>
       <div className={styles.rightCard}>
-        <img src={props.data.demoImage} alt="" />
+        <img src={props.data.demoImage} alt="Error in Loading" />
       </div>
     </div>
   );

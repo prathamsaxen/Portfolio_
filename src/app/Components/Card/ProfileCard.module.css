@@ -28,6 +28,11 @@
 }
 .imageSection img{
     width: 100%;
-    /* height: 100%; */
-    /* border: 2px solid red; */
+
+}
+@media  screen and (max-width:768px){
+    .Card{
+        width: 100%;
+        border: 1px solid rgba(56, 55, 55, 1);
+    }
 }

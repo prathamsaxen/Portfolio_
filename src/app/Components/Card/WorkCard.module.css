@@ -1,7 +1,7 @@
 .card{
     border: 1px;
     margin-top: 32px;
-    height: 565px;
+    /* height: 565px; */
     border-radius: 32px;
     background-color: rgba(230, 230, 230, 1);
     display: flex;
@@ -67,8 +67,32 @@ margin-top: 16px;
 .rightCard img{
     /* width: 80%; */
     height: 100%;
-    transform: rotate(16deg); /* Rotate the image 90 degrees clockwise */
-
+    transform: rotate(16deg); /* Rotate the image 90 degrees clockwise */    
+}
+@media screen and (max-width: 768px) {
+    .card{
+        gap: 0;
+        /* border: 2px solid red; */
+        background-color: rgba(21, 21, 21, 0.5);
+        border: 1px solid rgba(56, 55, 55, 1);
+    }
+    .rightCard{
+        display: none;
+    }
+    .leftCard{
+        width: 100%;
+        padding: 32px 24px 32px 24px;
+    }
+    .leftCard h2{
+        font-size: 20px;
+    }
+    .leftCard p{
+        font-size: 12px;
+        line-height: 18.15px;
+    }
+    .leftCard a{
+        margin-top: 32px;
+    }
     
 }
 
