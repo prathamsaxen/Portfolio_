@@ -34,6 +34,20 @@ export default function Home() {
       demoImage:"/codefeast.png"
     },
   ];
+  const profileCards=[
+    {
+      title:"About Me",
+      paragraph:"Who i am and what i do",
+      image:"/me.svg",
+      link:"/"
+    },
+    {
+      title:"Tech Stack",
+      paragraph:"The dev tools, apps, devices, and games I use and play.",
+      image:"/Tech Stack.svg",
+      link:"/"
+    }
+  ]
   return (
     <div className={styles.main}>
       <div className={styles.logo}>℘</div>
@@ -73,10 +87,9 @@ export default function Home() {
       <div className={styles.knowMeFrame}>
         <h2>Get to know me</h2>
         <div className={styles.knowCards}>
-          <ProfileCard />
-          <ProfileCard />
-          <ProfileCard />
-          <ProfileCard />
+          {profileCards.map((item,index)=>{
+            return <ProfileCard data={item} key={index}/>
+          })}
         </div>
       </div>
       <div className={styles.contactFrame}>

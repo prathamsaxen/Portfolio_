@@ -35,4 +35,8 @@
         width: 100%;
         border: 1px solid rgba(56, 55, 55, 1);
     }
+    .textSection p{
+        color: rgba(193, 193, 193, 1);
+        margin-top: 5px;
+    }
 }
