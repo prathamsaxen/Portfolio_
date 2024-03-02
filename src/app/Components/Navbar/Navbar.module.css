@@ -50,9 +50,34 @@
 .rightNavbar ul {
     gap: 24px;
 }
+.mobileNavbar{
+    display: none;
+}
 @media screen and (max-width: 768px) {
     .navbar{
         display: none;
     }
-    
+    .mobileNavbar{
+        width: 80%;
+        left: 50%;
+        transform: translateX(-50%);
+        position: fixed;
+        bottom: 30px;
+        height: 60px;
+        border: 1px solid rgba(39, 38, 44, 0.38);
+        border-radius: 12px;
+        background-color: rgba(24, 24, 29, 0.6) !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .mobileNavbar nav{
+        /* border: 2px solid white; */
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+        width: 100%;
+        justify-content: space-evenly;
+        height: 90%;
+    }
 }

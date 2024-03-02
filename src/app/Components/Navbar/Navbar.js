@@ -29,6 +29,32 @@ export default function Navbar() {
       route: "/contact",
     },
   ];
+  const mobileNavLinks=[
+    {
+      img:"/nav/Home.svg",
+      path:""
+    },
+    {
+      img:"/nav/User.svg",
+      path:""
+    },
+    {
+      img:"/nav/Bag.svg",
+      path:""
+    },
+    {
+      img:"/nav/Pen.svg",
+      path:""
+    },
+    {
+      img:"/nav/Message.svg",
+      path:""
+    },
+    {
+      img:"/nav/Vector.svg",
+      path:""
+    }
+  ]
   const socialMediaLinks = [
     {
       image: "/LinkedIn.svg",
@@ -44,6 +70,7 @@ export default function Navbar() {
     },
   ];
   return (
+    <>
     <div className={styles.navbar}>
       <div className={styles.leftNavbar}>
         <ul>
@@ -76,5 +103,19 @@ export default function Navbar() {
         </ul>
       </div>
     </div>
+    <div className={styles.mobileNavbar}>
+          <nav>
+              {
+                mobileNavLinks.map((item) => (
+                  <li key={item.uniqueId}>
+                    <Link href={item.path}>
+                      <img src={item.img} alt={`Error in Loading ${item.uniqueId}`} />
+                    </Link>
+                  </li>
+                ))
+              }
+          </nav>
+    </div>
+    </>
   );
 }
