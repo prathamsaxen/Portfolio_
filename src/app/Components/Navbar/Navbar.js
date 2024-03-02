@@ -32,11 +32,11 @@ export default function Navbar() {
   const mobileNavLinks=[
     {
       img:"/nav/Home.svg",
-      path:""
+      path:"/"
     },
     {
       img:"/nav/User.svg",
-      path:""
+      path:"/about"
     },
     {
       img:"/nav/Bag.svg",
@@ -61,8 +61,8 @@ export default function Navbar() {
       path: "https://www.linkedin.com/in/prathamsaxena",
     },
     {
-      image: "/X.svg",
-      path: "https://twitter.com/pratham__saxena",
+      image: "/youtube.svg",
+      path: "https://www.youtube.com/@Pratham-Saxena",
     },
     {
       image: "/Github.svg",

@@ -4,7 +4,9 @@
 .mainHome{
     height: 100vh;
     background-image: url("../../public/Pratham.svg");
+    /* background-image: url("../../public/gradient.svg"); */
     background-position: center center;
+    /* background-position-y: -250px; */
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -70,6 +72,7 @@
     font-weight: 500;
     font-family: "Inter";
     cursor: pointer;
+    /* color: rgba(38, 32, 32, 1) !important; */
 }
 .buttonStacks button:first-of-type{
     background: linear-gradient(180deg, #1A1A1A 0%, #131313 100%);
@@ -82,6 +85,7 @@
 .buttonStacks button:last-of-type{
     background: rgba(230, 230, 230, 1);
     color: rgba(193, 193, 193, 1);
+    color: rgba(38, 32, 32, 1);
 }
 
 .selectedWork{
@@ -194,8 +198,7 @@
         transform: translateX(-50%);
     }
     .infoFrame p{
-        font-size: 15
-        px;
+        font-size: 20px;
         line-height: 30px;
     }
     .selectedWork h2{

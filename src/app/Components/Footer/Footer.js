@@ -24,12 +24,12 @@ export default function Footer() {
           </div>
           <div className={styles.Links}>
             <p>Elsewhere</p>
-            <Link href="/">Email</Link>
-            <Link href="/">LinkedIn</Link>
-            <Link href="/">Github</Link>
-            <Link href="/">Twitter</Link>
-            <Link href="/">Discord</Link>
-            <Link href="/">Instagram</Link>
+            <Link href="mailto:er.prathamsaxena@gmail.com">Email</Link>
+            <Link href="https://www.linkedin.com/in/prathamsaxena/" target="_blank">LinkedIn</Link>
+            <Link href="https://github.com/prathamsaxen" target="_blank">Github</Link>
+            <Link href="https://www.youtube.com/@Pratham-Saxena" target="_blank">Youtube</Link>
+            <Link href="https://twitter.com/pratham__saxena" target="_blank">Twitter</Link>
+            <Link href="https://www.instagram.com/prathamsaxen/" target="_blank">Instagram</Link>
             
           </div>
         </div>

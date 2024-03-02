@@ -1,10 +1,10 @@
 "use client";
 import styles from "./page.module.css";
-import Lottie from "lottie-react";
-import animation from "./Animation/animation.json";
+// import Lottie from "lottie-react";
+// import animation from "./Animation/animation.json";
 import WorkCard from "./Components/Card/WorkCard";
 import ProfileCard from "./Components/Card/ProfileCard";
-import Footer from "./Components/Footer/Footer";
+// import Footer from "./Components/Footer/Footer";
 export default function Home() {
   const pastProjects = [
     {
@@ -119,7 +119,6 @@ export default function Home() {
           Get in touch
         </button>
       </div>
-      <Footer />
     </div>
   );
 }
