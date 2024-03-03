@@ -17,10 +17,10 @@ export default function Footer() {
         <div className={styles.rightFooter}>
           <div className={styles.Links}>
             <p>Links</p>
-            <Link href="/">About</Link>
-            <Link href="/">Work</Link>
-            <Link href="/">Tech Stack</Link>
-            <Link href="/">Contact</Link>
+            <Link href="/about">About</Link>
+            <Link href="/projects">Project</Link>
+            <Link href="/tech-stack">Tech Stack</Link>
+            <Link href="/contact">Contact</Link>
           </div>
           <div className={styles.Links}>
             <p>Elsewhere</p>

@@ -2,8 +2,8 @@
 import styles from "./page.module.css";
 // import Lottie from "lottie-react";
 // import animation from "./Animation/animation.json";
-import WorkCard from "./Components/Card/WorkCard";
-import ProfileCard from "./Components/Card/ProfileCard";
+import WorkCard from "./Components/Card/WorkCard/WorkCard";
+import ProfileCard from "./Components/Card/ProfileCard/ProfileCard";
 // import Footer from "./Components/Footer/Footer";
 import pastProjects from "./configurations/projects";
 export default function Home() {
