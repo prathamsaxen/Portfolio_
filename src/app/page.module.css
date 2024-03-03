@@ -93,6 +93,9 @@
     width: 80%;
     margin: auto;
     padding-top: 57px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
 }
 .selectedWork h2{
     font-size: 48px;

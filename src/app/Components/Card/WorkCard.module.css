@@ -1,13 +1,13 @@
 .card{
     border: 1px;
-    margin-top: 32px;
+    /* margin-top: 32px; */
     height: 565px;
     border-radius: 32px;
     background-color: rgba(230, 230, 230, 1);
     display: flex;
     justify-content: center;
     align-items: center;
-   margin-bottom: 20px;
+   /* margin-bottom: 20px; */
    gap: 32px;
    overflow: hidden;
 
