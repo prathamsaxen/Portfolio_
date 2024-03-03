@@ -108,6 +108,31 @@ a {
     color-scheme: dark;
   }
 } */
+:root{
+  --Black:#0D0D0D;
+  --White:#FFFFFF;
+  --Onyx:#181818;
+  --DarkGray:#808080;
+  --MediumGray:rgba(128,128,128,0.5);
+  --LightGray:#C5C5C5;
+  --LightBlue:rgba(63,100,234,0.43);
+  --LightRed:rgba(233,63,64,.043);
+  --LightYellow:rgba(255,184,0,0.43);
+
+  --CardBorder:#383737;
+  --BorderWhite:rgba(255,255,255,0.7);
+  --BorderWhite25:rgba(255,255,255,0.25);
+  --BorderBlack:rgba(21,21,21,.5);
+
+  --MainBG:#FBFBFB;
+  --FaintWhite:#F3f3f3;
+  --LightCardBorder:#EBEBEB;
+  --CardBG:#F6F6F6;
+  --LightCardBlack10:rgba(21,21,21,0.1);
+
+  --DarkGradient: linear-gradient(180deg, #1A1A1A 0%, #131313 100%);
+
+}
 
 *{
   box-sizing: border-box;
