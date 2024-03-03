@@ -14,7 +14,7 @@ export default function page() {
       <div className={styles.aboutContent}>
         <div className={styles.leftAboutContent}>
           <div className={styles.contentDisplay}>
-            <p>Who i am</p>
+            <p>Who I am</p>
             <p>
               I’m <span>Pratham Saxena</span> a multi-disciplinary front-end
               engineer and UI/UX designer based in Aligarh, India 🇮🇳.
@@ -52,10 +52,9 @@ export default function page() {
       <div className={styles.contactContent}>
         <div className={styles.leftContactContent}>
           <p>
-            Feel free to reach out via <span>e-mail</span>, or follow me on{" "}
-            <span>Twitter</span> . Want to see where I’ve worked? Check out my{" "}
-            <span>Resume</span>, or Connect with me on
-            <span>LinkedIn</span>.
+            Feel free to reach out via <Link href="mailto:er.prathamsaxena@gmail.com">e-mail</Link>, or follow me on{" "}
+            <Link href="https://www.instagram.com/prathamsaxen/" target="_blank">Instagram</Link> . Want to see where I’ve worked? Check out my{" "}
+            <Link href="/" target="_blank">Resume</Link>, or Connect with me on <Link href="https://www.linkedin.com/in/prathamsaxena" target="_blank">LinkedIn</Link>.
           </p>
         </div>
         <div className={styles.rightContactContent}>

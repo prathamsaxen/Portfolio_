@@ -16,9 +16,9 @@ export default function Home() {
       Codefeast offers a diverse array of features and courses, facilitating
       students in their journey to master coding and stay abreast of
       emerging technologies.`,
-      heading:"Printila - E commerce platform",
-      link:"https://test.seller.printila.in/",
-      demoImage:"/printila_demo.png"
+      heading: "Printila - E commerce platform",
+      link: "https://test.seller.printila.in/",
+      demoImage: "/printila_demo.png",
     },
     {
       logo: "/codefeastLogo.png",
@@ -29,9 +29,9 @@ export default function Home() {
       Codefeast offers a diverse array of features and courses, facilitating
       students in their journey to master coding and stay abreast of
       emerging technologies.`,
-      heading:"Codefeast - Coding based edtech platform",
-      link:"https://codefeast.in/",
-      demoImage:"/codefeast.png"
+      heading: "Codefeast - Coding based edtech platform",
+      link: "https://codefeast.in/",
+      demoImage: "/codefeast.png",
     },
     // {
     //   logo: "/codefeastLogo.png",
@@ -47,20 +47,20 @@ export default function Home() {
     //   demoImage:"/codefeast.png"
     // },
   ];
-  const profileCards=[
+  const profileCards = [
     {
-      title:"About Me",
-      paragraph:"Who i am and what i do",
-      image:"/me.svg",
-      link:"/"
+      title: "About Me",
+      paragraph: "Who i am and what i do",
+      image: "/me.svg",
+      link: "/",
     },
     {
-      title:"Tech Stack",
-      paragraph:"The dev tools, apps, devices, and games I use and play.",
-      image:"/Tech Stack.svg",
-      link:"/"
-    }
-  ]
+      title: "Tech Stack",
+      paragraph: "The dev tools, apps, devices, and games I use and play.",
+      image: "/Tech Stack.svg",
+      link: "/",
+    },
+  ];
   return (
     <div className={styles.main}>
       <div className={styles.logo}>℘</div>
@@ -91,17 +91,15 @@ export default function Home() {
       </div>
       <div className={styles.selectedWork}>
         <h2>Selected Work</h2>
-        {
-          pastProjects.map((item,index)=>{
-            return <WorkCard data={item} key={index}/>
-          })
-        }
+        {pastProjects.map((item, index) => {
+          return <WorkCard data={item} key={index} />;
+        })}
       </div>
       <div className={styles.knowMeFrame}>
         <h2>Get to know me</h2>
         <div className={styles.knowCards}>
-          {profileCards.map((item,index)=>{
-            return <ProfileCard data={item} key={index}/>
+          {profileCards.map((item, index) => {
+            return <ProfileCard data={item} key={index} />;
           })}
         </div>
       </div>
