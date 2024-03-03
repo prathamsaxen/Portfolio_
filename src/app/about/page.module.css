@@ -7,6 +7,16 @@
     background-size: cover;
     border: 1px solid transparent;
 }
+/* .gradient{
+    /* border: 2px solid red; */
+    /* height: 40vh;
+    position: absolute;
+    width: 100%;
+    background-image: url("../../../public/gradient.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+    top:-20%; */
 .about span,.about a{
     color: white;
     cursor: pointer;
@@ -128,7 +138,7 @@
 }
 @media screen and (max-width:767px) {
     .about{
-        background-position-y: -2500px;
+        background-position-y: -1500px;
     }
     .logo{
         display: block;

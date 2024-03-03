@@ -4,6 +4,7 @@ import Link from "next/link";
 export default function page() {
   return (
     <div className={styles.about}>
+      {/* <div className={styles.gradient}></div> */}
       <div className={styles.logo}>℘</div>
       <div className={styles.aboutWrapper}>
         <div className={styles.Wrapper}>
