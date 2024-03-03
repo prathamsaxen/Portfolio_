@@ -7,6 +7,10 @@
     background-size: cover;
     border: 1px solid transparent;
 }
+.about span{
+    color: white;
+    cursor: pointer;
+}
 .aboutWrapper{
     /* border: 2px solid white; */
     height: 472px;
@@ -73,6 +77,7 @@
     font-family: "Inter";
     font-weight: 400;
     color: rgba(128, 128, 128, 1);
+    line-height: 23.7px;
 }
 .contactContent{
     /* border: 2px solid red; */
@@ -116,4 +121,50 @@
 }
 .signatureDiv img{
     width: 50%;
+}
+.logo{
+    display: none;
+}
+@media screen and (max-width:767px) {
+    .about{
+        background-position-y: -2500px;
+    }
+    .logo{
+        display: block;
+        position: absolute;
+        color: white;
+        font-size: 2.5rem;
+        top: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .aboutWrapper{
+        height: 400px;
+    }
+    .Wrapper{
+        /* border: 2px solid red; */
+        width: 90%;
+        /* height: 400px; */
+    }
+    .Wrapper h1{
+        font-size: 3.5rem;
+        line-height: 50px;
+    }
+    .aboutContent{
+        flex-direction: column-reverse;
+    }
+    .contactContent{
+        flex-direction: column;
+    }
+    .signatureDiv{
+        /* border: 2px solid red; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 80px;
+    }
+    .signatureDiv img{
+        width: 90%;
+    }
+
 }

@@ -4,6 +4,7 @@ import Link from "next/link";
 export default function page() {
   return (
     <div className={styles.about}>
+      <div className={styles.logo}>℘</div>
       <div className={styles.aboutWrapper}>
         <div className={styles.Wrapper}>
           <h1>A little bit about me</h1>
@@ -15,8 +16,8 @@ export default function page() {
           <div className={styles.contentDisplay}>
             <p>Who i am</p>
             <p>
-              I’m Pratham Saxena a multi-disciplinary front-end engineer and
-              UI/UX designer based in Aligarh, India 🇮🇳.
+              I’m <span>Pratham Saxena</span> a multi-disciplinary front-end
+              engineer and UI/UX designer based in Aligarh, India 🇮🇳.
             </p>
           </div>
           <div className={styles.contentDisplay}>
@@ -51,9 +52,10 @@ export default function page() {
       <div className={styles.contactContent}>
         <div className={styles.leftContactContent}>
           <p>
-            Feel free to reach out via e-mail, or follow me on Twitter. Want to
-            see where I’ve worked? Check out my Resume, or Connect with me on
-            LinkedIn.
+            Feel free to reach out via <span>e-mail</span>, or follow me on{" "}
+            <span>Twitter</span> . Want to see where I’ve worked? Check out my{" "}
+            <span>Resume</span>, or Connect with me on
+            <span>LinkedIn</span>.
           </p>
         </div>
         <div className={styles.rightContactContent}>
@@ -78,7 +80,7 @@ export default function page() {
         </div>
       </div>
       <div className={styles.signatureDiv}>
-          <img src="/signature.png" alt="Error in loading sign" />
+        <img src="/signature.png" alt="Error in loading sign" />
       </div>
     </div>
   );
