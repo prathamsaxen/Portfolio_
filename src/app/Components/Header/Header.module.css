@@ -3,12 +3,13 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-y: -200px;
-    height: 58vh;
+    background-position-y: -180px;
+    background-position-x: center;
+    height: 100vh;
     border-bottom:1px solid rgba(255, 255, 255, 0.1);
-    border: 2px solid transparent;
+    border: 1px solid transparent;
     z-index: 999;
-}
+}  
 .logo{
     display: none;
 }
@@ -31,4 +32,7 @@
     font-family: "Inter";
     color: rgba(128, 128, 128, 0.5);
     line-height: 29.05px;
+}
+.line{
+    border-bottom: .5px solid gray;
 }

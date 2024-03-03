@@ -1,11 +1,13 @@
 .about{
-    background-image: url("../../../public/gradient.svg");
+    /* background-image: url("../../../public/gradient.svg");
     background-position: center center;
     background-position-y: -1200px;
     /* background-position: 0%; */
-    background-repeat: no-repeat;
-    background-size: cover;
-    border: 1px solid transparent;
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* border: 1px solid transparent; */ 
+    height: max-content;
+    /* border: 2px solid red; */
 }
 /* .gradient{
     /* border: 2px solid red; */
@@ -22,37 +24,37 @@
     cursor: pointer;
     text-decoration: none;
 }
-.aboutWrapper{
+/* .aboutWrapper{
     border: 2px solid white;
     height: 58vh;
     /* border:2px solid rgba(255, 255, 255, 0.1); */
-}
-
+/* } */
+/* 
 .Wrapper{
     /* border: 2px solid red; */
-    width: 80%;
-    margin: auto;
-    margin-top: 278px;
-}
-.Wrapper h1{
-    font-size: 80px;
-    font-weight: 700;
-    font-family: "Inter";
-    line-height: 96.82px;
-    color: rgba(255, 255, 255, 1);
-}
-.Wrapper p{
-    font-size: 24px;
-    font-weight: 400;
-    font-family: "Inter";
-    color: rgba(128, 128, 128, 0.5);
-    line-height: 29.05px;
-}
+    /* width: 80%; */
+    /* margin: auto; */
+    /* margin-top: 278px; */
+/* } */
+/* .Wrapper h1{ */
+    /* font-size: 80px; */
+    /* font-weight: 700; */
+    /* font-family: "Inter"; */
+    /* line-height: 96.82px; */
+    /* color: rgba(255, 255, 255, 1); */
+/* } */
+/* .Wrapper p{ */
+    /* font-size: 24px; */
+    /* font-weight: 400; */
+    /* font-family: "Inter"; */ 
+    /* color: rgba(128, 128, 128, 0.5); */
+    /* line-height: 29.05px; */
+/* } */ 
 .aboutContent{
     /* border: 2px solid red; */
     width: 80%;
     margin: auto;
-    margin-top: 60px;
+    margin-top: 120px;
     display: flex;
     justify-content: center;
     gap: 75px;

@@ -10,6 +10,7 @@ function Header(props) {
           <p>{props.subtitle}</p>
         </div>
       </div>
+      <div className={styles.line}></div>
     </div>
   );
 }
