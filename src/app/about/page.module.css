@@ -1,7 +1,8 @@
 .about{
     background-image: url("../../../public/gradient.svg");
     background-position: center center;
-    background-position-y: -350px;
+    background-position-y: -1200px;
+    /* background-position: 0%; */
     background-repeat: no-repeat;
     background-size: cover;
     border: 1px solid transparent;
@@ -9,7 +10,7 @@
 .aboutWrapper{
     /* border: 2px solid white; */
     height: 472px;
-    /* border:1px solid rgba(255, 255, 255, 0.1); */
+    border-bottom:1px solid rgba(255, 255, 255, 0.1);
 }
 
 .Wrapper{
@@ -31,4 +32,88 @@
     font-family: "Inter";
     color: rgba(128, 128, 128, 0.5);
     line-height: 29.05px;
+}
+.aboutContent{
+    /* border: 2px solid red; */
+    width: 80%;
+    margin: auto;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+}
+.leftAboutContent {
+    /* border: 2px solid green; */
+    width: 100%;
+    gap: 32px;
+    display: flex;
+    flex-direction: column;
+}
+.rightAboutContent{
+    /* border: 2px solid pink; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.contentDisplay{
+    /* border: 2px solid beige; */
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.contentDisplay p:first-of-type{
+    color: rgba(128, 128, 128, 0.47);
+    font: "Inter";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.36px;
+}
+.contentDisplay p:last-of-type ,.leftContactContent p{
+    font-size: 18px;
+    font-family: "Inter";
+    font-weight: 400;
+    color: rgba(128, 128, 128, 1);
+}
+.contactContent{
+    /* border: 2px solid red; */
+    width: 80%;
+    margin: auto;
+    margin-top: 60px;
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+}
+.leftContactContent{
+    /* border: 2px solid green; */
+    width: 100%;
+}
+.rightContactContent{
+    /* border: 2px solid pink; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rightContactContent a{
+    width: 201px;
+    height: 60px;
+    padding: 16px 32px 16px 32px;
+    border-radius: 9px;
+    gap: 8px;
+    background: linear-gradient(180deg, #1A1A1A 0%, #131313 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    text-decoration: none;
+    box-shadow: 0px 1px 2px 0px rgba(255, 255, 255, 0.02) inset;;
+}
+.signatureDiv{
+    /* border: 2px solid red; */
+    width: 100%;
+    margin: auto;
+    margin-top: 120px;
+}
+.signatureDiv img{
+    width: 50%;
 }
