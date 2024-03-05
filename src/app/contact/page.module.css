@@ -1,0 +1,122 @@
+.contactForm{
+    /* border: 2px solid white; */
+    width: 70%;
+    margin: auto;
+    margin-top: 60px;
+    height: 690px;
+    border-radius: 12px;
+    background: rgba(230, 230, 230, 1);
+    border:1px solid rgba(56, 55, 55, 1);
+}
+.FormHeader{
+    /* border: 2px solid red; */
+    border-radius: 12px;
+    height: 5%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between ;
+}
+.FormHeader h1{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Inter";
+}
+.mainForm{
+    height: 80%;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+}
+.inputLabels , .textArea{
+    /* border: 2px solid pink; */
+    width: 90%;
+
+}
+.inputLabels{
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.labels{
+    /* border: 2px solid red; */
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.labels label{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+.labels input{
+    width: 100%;
+    padding: 5px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(128, 128, 128, 0.5);
+
+}
+.textArea{
+    height: 60%;
+}
+.textArea textarea{
+    width: 100%;
+    height: 100%;
+    resize: none;
+    /* padding: 10px; */
+    background-color: rgba(13, 13, 13, 1);
+    border-radius: 12px;
+    padding: 24px;
+    color: rgba(128, 128, 128, 0.5);
+    box-shadow: 0px 19px 30px 0px rgba(0, 0, 0, 0.2);
+    font-size: "Inter";
+    font-weight: 400;
+    font-size: 16px;
+
+}
+.formFooter{
+    height: 15%;
+    /* border: 2px solid black; */
+    background: rgba(22, 22, 22, 1);
+    border-radius: 12px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 50px;
+}
+.formFooter button{
+    width:109px;
+    height: 60px;
+    padding: 16px 32px 16px 32px;
+    border-radius: 9px;
+    gap: 8px;
+    box-shadow: 
+    0px 7px 4px 0px rgba(0, 0, 0, 0.15),
+    0px 2px 4px 0px rgba(255, 255, 255, 0.08) inset,
+    0px 1px 2px 0px rgba(255, 255, 255, 0.02) inset;
+    background: linear-gradient(180deg, #1A1A1A 0%, #131313 100%);
+    border: none;
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    font-family: "Inter";
+    font-weight: 500;
+    cursor: pointer;
+}
