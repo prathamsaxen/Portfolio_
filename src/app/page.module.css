@@ -77,15 +77,17 @@
 .buttonStacks button:first-of-type{
     background: var(--DarkGradient);
     color: rgba(255, 255, 255, 1);
-    box-shadow: 0px 7px 4px 0px rgba(0, 0, 0, 0.15);
-    box-shadow: 0px 2px 4px 0px rgba(255, 255, 255, 0.08) inset;
-    box-shadow: 0px 1px 2px 0px rgba(255, 255, 255, 0.02) inset;
+    box-shadow: 
+    0px 7px 4px 0px rgba(0, 0, 0, 0.15),
+    0px 2px 4px 0px rgba(255, 255, 255, 0.08) inset,
+    0px 1px 2px 0px rgba(255, 255, 255, 0.02) inset;
+
 
 }
 .buttonStacks button:last-of-type{
     background: rgba(230, 230, 230, 1);
     color: rgba(193, 193, 193, 1);
-    color: rgba(38, 32, 32, 1);
+    /* color: rgba(38, 32, 32, 1); */
 }
 
 .selectedWork{
@@ -164,7 +166,11 @@
     background: var(--DarkGradientw);
     height: 60px;
     width: 210px;
-    box-shadow: 0px 1px 2px 0px rgba(255, 255, 255, 0.02) inset;
+    box-shadow: 
+    0px 7px 4px 0px rgba(0, 0, 0, 0.15),
+    0px 2px 4px 0px rgba(255, 255, 255, 0.08) inset,
+    0px 1px 2px 0px rgba(255, 255, 255, 0.02) inset;
+
     border: none;
     font-family: "Inter";
     font-size: 18px;
