@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./page.module.css";
 import Header from "../Components/Header/Header";
+import MediaIcons from "../Components/MediaIcons/MediaIcons";
 export default function page() {
   return (
     <div className={styles.contact}>
@@ -41,6 +42,7 @@ export default function page() {
             </button>
           </div>
       </div>
+      <MediaIcons marginTop={"60px"}/>
     </div>
   );
 }
