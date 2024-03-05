@@ -1,9 +1,10 @@
 import React from 'react'
 import styles from "./page.module.css";
+import Header from '../Components/Header/Header';
 export default function page() {
   return (
     <div>
-      <h1>Education</h1>
+      <Header title="Education" subtitle="Summary of my educational background and qualifications."/>
     </div>
   )
 }
