@@ -6,6 +6,7 @@ import WorkCard from "./Components/Card/WorkCard/WorkCard";
 import ProfileCard from "./Components/Card/ProfileCard/ProfileCard";
 // import Footer from "./Components/Footer/Footer";
 import pastProjects from "./configurations/projects";
+import Link from "next/link";
 export default function Home() {
   // const pastProjects = [
   //   {
@@ -53,13 +54,13 @@ export default function Home() {
       title: "About Me",
       paragraph: "Who i am and what i do",
       image: "/me.svg",
-      link: "/",
+      link: "/about",
     },
     {
       title: "Tech Stack",
       paragraph: "The dev tools, apps, devices, and games I use and play.",
       image: "/Tech Stack.svg",
-      link: "/",
+      link: "/tech-stack",
     },
   ];
   return (
@@ -77,8 +78,8 @@ export default function Home() {
               and building modern mobile and web-based apps.
             </p>
             <div className={styles.buttonStacks}>
-              <button>See my resume</button>
-              <button>Get in touch</button>
+              <a href="/CV.pdf" download>See my resume</a>
+              <Link href="/contact">Get in touch</Link>
             </div>
           </div>
           {/* <div className={styles.rightInfoFrame}>

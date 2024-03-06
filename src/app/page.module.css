@@ -64,7 +64,7 @@
     display: flex;
     gap: 16px;
 }
-.buttonStacks button{
+.buttonStacks a{
     padding: 16px 32px 16px 32px;
     border-radius: 9px;
     border: none;
@@ -72,9 +72,10 @@
     font-weight: 500;
     font-family: "Inter";
     cursor: pointer;
+    text-decoration: none;
     /* color: rgba(38, 32, 32, 1) !important; */
 }
-.buttonStacks button:first-of-type{
+.buttonStacks a:first-of-type{
     background: var(--DarkGradient);
     color: rgba(255, 255, 255, 1);
     box-shadow: 
@@ -84,7 +85,7 @@
 
 
 }
-.buttonStacks button:last-of-type{
+.buttonStacks a:last-of-type{
     background: rgba(230, 230, 230, 1);
     color: rgba(193, 193, 193, 1);
     /* color: rgba(38, 32, 32, 1); */

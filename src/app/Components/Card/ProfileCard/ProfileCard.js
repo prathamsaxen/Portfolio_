@@ -1,9 +1,12 @@
 import React from "react";
 import styles from "./ProfileCard.module.css";
+import { useRouter } from "next/navigation";
 
 function ProfileCard(props) {
+  const router=useRouter();
+  console.log(props.data.link);
   return (
-    <div className={styles.Card}>
+    <div className={styles.Card} onClick={()=>router.push(props.data.link)}>
       <div className={styles.textSection}>
         <h2>{props.data.title}</h2>
         <p>{props.data.paragraph}</p>
