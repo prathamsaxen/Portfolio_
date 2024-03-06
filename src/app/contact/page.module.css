@@ -1,3 +1,4 @@
+
 .contactForm{
     /* border: 2px solid white; */
     width: 70%;
@@ -119,4 +120,17 @@
     font-family: "Inter";
     font-weight: 500;
     cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+    .contactForm {
+        width: 90%;
+    }
+    
+    .formFooter{    
+        justify-content: center;
+    }
+    .formFooter button{
+        width: 90%;
+    }
 }
