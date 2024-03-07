@@ -1,0 +1,105 @@
+.card{
+    border: 1px;
+    /* margin-top: 32px; */
+    height: 565px;
+    border-radius: 32px;
+    background-color: rgba(230, 230, 230, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   /* margin-bottom: 20px; */
+   gap: 32px;
+   overflow: hidden;
+
+}
+.leftCard{
+    /* border: 2px solid black; */
+    width: 50%;
+    height: 100%;
+    padding-left: 60px;
+    padding-top: 60px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: space-between; */
+}
+.leftCard img{
+    width: 40%;
+}
+.leftCard h2{
+    font-family: "Inter";
+    color: rgba(255, 255, 255, 1) !important;
+    font-weight: 800 !important;
+    font-size: 32px !important;
+    /* color: red !important; */
+    line-height: 38.37px !important;
+    margin-top: 16px;
+}
+.leftCard p{
+    color: rgba(193, 193, 193, 1);
+font-family: "Inter";
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+margin-top: 16px;
+}
+.leftCard a{
+    display: block;
+    margin-top: 70px;
+    display: flex;
+    gap: 5px;
+    text-decoration: none; 
+    font-family: "Inter";
+    font-size: 18px !important;
+    font-weight: 500; 
+    color: rgba(255, 255, 255, 1);
+    transition: all 1s ease-in-out;
+}
+.leftCard a:hover{
+    cursor: pointer;
+    font-size: 22px !important;
+    gap: 10px;
+}
+.rightCard{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 250px;
+}
+.rightCard img{
+    /* width: 80%; */
+    height: 100%;
+    transform: rotate(16deg); /* Rotate the image 90 degrees clockwise */    
+}
+@media screen and (max-width: 768px) {
+    .card{
+        gap: 0;
+        background-color: rgba(21, 21, 21, 0.5);
+        border: 1px solid rgba(56, 55, 55, 1);
+        height: unset;
+    }
+    .rightCard{
+        display: none;
+    }
+    .leftCard{
+        width: 100%;
+        padding: 32px 24px 32px 24px;
+    }
+    .leftCard h2{
+        font-size: 20px;
+    }
+    .leftCard p{
+        font-size: 12px;
+        line-height: 18.15px;
+    }
+    .leftCard a{
+        margin-top: 32px;
+    }
+    
+}
+

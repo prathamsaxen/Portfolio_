@@ -1,0 +1,42 @@
+.HeaderWrapper{
+    background: url("../../../../public/gradient.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -180px;
+    background-position-x: center;
+    height: 100vh;
+    /* border-bottom:1px solid rgba(255, 255, 255, 0.1); */
+    border: 1px solid transparent;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    /* border-bottom: 1px solid ; */
+    z-index: 999;
+    display: flex;
+    align-items: center;
+}  
+.logo{
+    display: none;
+}
+.Wrapper{
+    /* border: 2px solid red; */
+    width: 80%;
+    margin: auto;
+    /* margin-top: 278px; */
+}
+.Wrapper h1{
+    font-size: 80px;
+    font-weight: 700;
+    font-family: "Inter";
+    line-height: 96.82px;
+    color: rgba(255, 255, 255, 1);
+}
+.Wrapper p{
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Inter";
+    color: rgba(128, 128, 128, 0.5);
+    line-height: 29.05px;
+}
+.line{
+    border-bottom: .5px solid gray;
+}

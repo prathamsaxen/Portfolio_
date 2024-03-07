@@ -1,0 +1,10 @@
+.techList{
+    /* border: 2px solid white; */
+    margin: auto;
+    width: 80%;
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+}

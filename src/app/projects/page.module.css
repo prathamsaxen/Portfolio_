@@ -1,0 +1,12 @@
+.project{
+    height: max-content;
+}
+.projectList{
+    /* border: 2px solid white; */
+    width: 80%;
+    margin: auto;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
