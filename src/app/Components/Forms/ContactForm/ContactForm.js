@@ -8,7 +8,7 @@ function ContactForm(props) {
           <img src="/controls.svg" alt="Error in Loading..." />
           <h1>Text Message</h1>
         </div> */}
-      <img src="/contact/MacOS Dark.svg" alt="Error in Loading" />
+      <img src="/contact/MAC.svg" alt="Error in Loading" />
       <div className={styles.mainForm}>
         <div className={styles.inputLabels}>
           <div className={styles.labels}>
