@@ -1,0 +1,44 @@
+.container{
+    /* border: 2px solid white; */
+    width: 60%;
+    margin: auto;
+    /* margin-top: 60px; */
+    height: 500px;
+    /* gap: 150px; */
+    border-radius: 12px;
+    background: rgba(230, 230, 230, 1);
+    /* background-image:url("../../../../../public/contact/Error.svg") ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 32px 32px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.container img{
+    width: 32px;
+}
+.container h3{
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: left;
+    /* margin-top: 40px; */
+    color: rgba(255, 255, 255, 1);
+
+}
+.container p{
+
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(197, 197, 197, 1);
+    width: 50%;
+}
