@@ -18,7 +18,9 @@ export default function page() {
   });
   const [displayForm, setDisplayForm] = useState(0);
   const [status, setStatus] = useState(false);
+  const [disable,setDisable]=useState(false);
   const handleSubmit = async () => {
+    setDisable(true);
     const isValidEmail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(
       userDetails.email.trim()
     );
@@ -86,6 +88,7 @@ export default function page() {
         console.log(e);
       }
     }
+    setDisable(false);
   };
 
   return (
@@ -97,6 +100,7 @@ export default function page() {
           setUserDetails={setUserDetails}
           handleSubmit={handleSubmit}
           marginTOP={"60px"}
+          disabled={disable}
         />
       ) : (
         <ErrorForm marginTOP={"60px"} status={status} />
