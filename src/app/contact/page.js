@@ -9,6 +9,7 @@ import "react-toastify/dist/ReactToastify.css";
 import axios from "axios";
 import ContactForm from "../Components/Forms/ContactForm/ContactForm";
 import ErrorForm from "../Components/Forms/ErrorForm/ErrorForm";
+import PreLoaderMain from "../Components/Preloader/Animation/PreLoaderMain";
 export default function page() {
   const [userDetails, setUserDetails] = useState({
     name: "",
@@ -93,6 +94,7 @@ export default function page() {
 
   return (
     <div className={styles.contact}>
+      {disable?<PreLoaderMain/>:null}
       <Header title="Get in touch" subtitle="Lets build something awesome" />
       {displayForm === 0 ? (
         <ContactForm
