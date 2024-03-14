@@ -40,20 +40,20 @@ export default function Navbar() {
     },
     {
       img:"/nav/Bag.svg",
-      path:""
+      path:"/tech-stack"
     },
     {
       img:"/nav/Pen.svg",
-      path:""
+      path:"/projects"
     },
     {
       img:"/nav/Message.svg",
-      path:""
+      path:"/contact"
     },
-    {
-      img:"/nav/Vector.svg",
-      path:""
-    }
+    // {
+    //   img:"/nav/Vector.svg",
+    //   path:""
+    // }
   ]
   const socialMediaLinks = [
     {

@@ -7,7 +7,9 @@ import ProfileCard from "./Components/Card/ProfileCard/ProfileCard";
 // import Footer from "./Components/Footer/Footer";
 import pastProjects from "./configurations/projects";
 import Link from "next/link";
+// import { Link } from 'next/router';
 export default function Home() {
+  // const router = useRouter();
   // const pastProjects = [
   //   {
   //     logo: "/printila_logo.png",
@@ -113,7 +115,7 @@ export default function Home() {
             when you are.
           </p>
         </div>
-        <button>
+        <Link href={"/contact"}>
           <svg
             width="24"
             height="24"
@@ -130,7 +132,7 @@ export default function Home() {
             />
           </svg>
           Get in touch
-        </button>
+        </Link>
       </div>
     </div>
   );

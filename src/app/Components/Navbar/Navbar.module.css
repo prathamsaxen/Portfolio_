@@ -37,7 +37,7 @@
 }
 .leftNavbar ul li:first-of-type a{
     font-size: 20px;
-    /* margin-bottom: 5px; */
+    margin-bottom: 5px;
 }
 .leftNavbar ul li a:hover{
     color: white;
@@ -90,7 +90,9 @@
         align-items: center;
         list-style-type: none;
         width: 100%;
-        justify-content: space-evenly;
+        justify-content: space-between;
+        padding-left: 20px;
+        padding-right: 20px;
         height: 90%;
     }
 }
