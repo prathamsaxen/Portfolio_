@@ -13,7 +13,10 @@ export default function page() {
           <p>Who I am and what i do</p>
         </div>
       </div> */}
-      <Header title={"A little bit about me"} subtitle={"Who I am and What I do"}/> 
+      <Header
+        title={"A little bit about me"}
+        subtitle={"Who I am and What I do"}
+      />
 
       <div className={styles.aboutContent}>
         <div className={styles.leftAboutContent}>
@@ -21,13 +24,13 @@ export default function page() {
             <p>Who I am</p>
             <p>
               I’m <span>Pratham Saxena</span> a multi-disciplinary front-end
-              engineer and UI/UX designer based in Aligarh, India 🇮🇳.
+              engineer based in Aligarh, India 🇮🇳.
             </p>
           </div>
           <div className={styles.contentDisplay}>
             <p>What I Do</p>
             <p>
-              With two years of invaluable experience in my role at Harmony
+              {/* With two years of invaluable experience in my role at Harmony
               Technology –– a tech company based here in Rabat, I have honed my
               skills in React.js, Next.js, TailwindCSS, and TypeScript, allowing
               me to craft seamless and interactive user experiences. During my
@@ -35,34 +38,67 @@ export default function page() {
               on projects for esteemed clients such as the Ministry of Health,
               Ministry of Education, and Ministry of Justice. It was an
               incredibly rewarding experience to develop applications that
-              directly impact the lives of Moroccan citizens.
+              directly impact the lives of Moroccan citizens. */}
+              As a frontend developer, it is incumbent upon me to translate
+              design visions into functional code, utilizing my proficiency in
+              tools such as React JS, Next JS, HTML, CSS, and JavaScript.
             </p>
           </div>
           <div className={styles.contentDisplay}>
             <p>What I Did</p>
             <p>
-              Before delving into the realm of front end engineering, I spent
+              {/* Before delving into the realm of front end engineering, I spent
               five years as a graphic designer. This background has equipped me
               with a keen eye for aesthetics and a deep understanding of
               user-centered design principles. It enables me to seamlessly blend
-              functionality and visual appeal in every project I undertake.
+              functionality and visual appeal in every project I undertake. */}
+              I am a frontend developer with comprehensive expertise spanning
+              the entire development life cycle. Additionally, during my tenure
+              as an Engineering Intern, I've garnered valuable experience
+              collaborating with esteemed organizations in India, including
+              Printila, GeeksforGeeks, Resolute AI, and Codefeast. Within these
+              roles, I've undertaken numerous projects across a spectrum of
+              client-side technologies such as HTML, CSS, JavaScript, React JS,
+              Next JS, and Redux JS. Noteworthy projects include the development
+              of a single sign-on application, an edtech platform, and an
+              e-commerce site for Printila. Moreover, I've spearheaded various
+              smaller-scale projects like the creation and deployment of a CSV
+              to JSON Converter on GeeksforGeeks' domain.
             </p>
           </div>
         </div>
         <div className={styles.rightAboutContent}>
-          <img src="/Square Frame.svg" alt="Error in loading frame" />
+          <img src="/img_about.svg" alt="Error in loading frame" />
         </div>
       </div>
       <div className={styles.contactContent}>
         <div className={styles.leftContactContent}>
           <p>
-            Feel free to reach out via <Link href="mailto:er.prathamsaxena@gmail.com">e-mail</Link>, or follow me on{" "}
-            <Link href="https://www.instagram.com/prathamsaxen/" target="_blank">Instagram</Link> . Want to see where I’ve worked? Check out my{" "}
-            <Link href="/" target="_blank">Resume</Link>, or Connect with me on <Link href="https://www.linkedin.com/in/prathamsaxena" target="_blank">LinkedIn</Link>.
+            Feel free to reach out via{" "}
+            <Link href="mailto:er.prathamsaxena@gmail.com">e-mail</Link>, or
+            follow me on{" "}
+            <Link
+              href="https://www.instagram.com/prathamsaxen/"
+              target="_blank"
+            >
+              Instagram
+            </Link>{" "}
+            . Want to see where I’ve worked? Check out my{" "}
+            <Link href="/" target="_blank">
+              Resume
+            </Link>
+            , or Connect with me on{" "}
+            <Link
+              href="https://www.linkedin.com/in/prathamsaxena"
+              target="_blank"
+            >
+              LinkedIn
+            </Link>
+            .
           </p>
         </div>
         <div className={styles.rightContactContent}>
-          <Link href="/">
+          <Link href="/contact">
             <svg
               width="24"
               height="24"
