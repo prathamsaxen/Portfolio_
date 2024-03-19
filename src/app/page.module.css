@@ -6,7 +6,7 @@
     background-image: url("../../public/Pratham.svg");
     /* background-image: url("../../public/gradient.svg"); */
     background-position: center center;
-    /* background-position-y: -250px; */
+    background-position-y: 0px;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
