@@ -39,9 +39,15 @@ export default function page() {
               Ministry of Education, and Ministry of Justice. It was an
               incredibly rewarding experience to develop applications that
               directly impact the lives of Moroccan citizens. */}
-              As a frontend developer, it is incumbent upon me to translate
-              design visions into functional code, utilizing my proficiency in
-              tools such as React JS, Next JS, HTML, CSS, and JavaScript.
+              As a frontend developer, my responsibility is to transform design
+              concepts into operational code. I leverage my expertise in React
+              JS, Next JS, HTML, CSS, and JavaScript to achieve this goal
+              effectively. It's essential for me to ensure that the visual
+              elements align seamlessly with the functionality. Through
+              utilizing these tools proficiently, I bridge the gap between
+              design and functionality in web development projects. My role
+              involves executing design visions into functional and
+              user-friendly interfaces.
             </p>
           </div>
           <div className={styles.contentDisplay}>
