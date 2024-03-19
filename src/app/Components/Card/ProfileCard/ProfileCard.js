@@ -4,7 +4,7 @@ import { useRouter } from "next/navigation";
 
 function ProfileCard(props) {
   const router=useRouter();
-  console.log(props.data.link);
+  // console.log(props.data.link);
   return (
     <div className={styles.Card} onClick={()=>router.push(props.data.link)}>
       <div className={styles.textSection}>
