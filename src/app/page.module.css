@@ -3,10 +3,10 @@
 }
 .mainHome{
     height: 100vh;
-    background-image: url("../../public/new.jpeg");
+    background-image: url("../../public/unsplash.jpg");
     /* background-image: url("../../public/gradient.svg"); */
     background-position: center center;
-    background-position-y: 0px;
+    /* background-position-y: 0px; */
     background-repeat: no-repeat;
     background-size: cover;
     /* backdrop-filter: blur(10px); */

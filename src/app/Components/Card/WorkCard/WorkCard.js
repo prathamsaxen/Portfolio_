@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./WorkCard.module.css";
 function WorkCard(props) {
   return (
-    <div className={styles.card}>
+    <div className={`${styles.card} ${props.className}`}>
       <div className={styles.leftCard}>
         <img src={props.data.logo} alt="Error in loading" />
         <h2>{props.data.heading}</h2>

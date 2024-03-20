@@ -6,7 +6,7 @@ import MainPreLoader from "./Components/MainPreLoader/MainPreLoader";
 import Footer from "./Components/Footer/Footer";
 import { useState,useEffect } from "react";
 function Config({ children }) {
-    const [loader,setLoader]=useState(true);
+    const [loader,setLoader]=useState(false);
     useEffect(()=>{
         setTimeout(()=>{
             setLoader(false);

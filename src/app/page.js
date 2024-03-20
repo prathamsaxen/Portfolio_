@@ -6,7 +6,7 @@ import WorkCard from "./Components/Card/WorkCard/WorkCard";
 import ProfileCard from "./Components/Card/ProfileCard/ProfileCard";
 // import Footer from "./Components/Footer/Footer";
 import gsap from "gsap";
-// import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 import pastProjects from "./configurations/projects";
 import Link from "next/link";
 import { useLayoutEffect } from "react";
@@ -14,7 +14,7 @@ import { useLayoutEffect } from "react";
 // import { Link } from 'next/router';
 export default function Home() {
   // const [loader,setLoader]=useState(true);
-  // gsap.registerPlugin(ScrollTrigger);
+  gsap.registerPlugin(ScrollTrigger);
   useLayoutEffect(() => {
     gsap.fromTo(
       `.heading`,
@@ -42,29 +42,126 @@ export default function Home() {
         y: 0,
       }
     );
-    // gsap.fromTo(
-    //   ".selectWork",
-    //   {
-    //     x: -50,
-    //     scrollTrigger: {
-    //       trigger: ".selectWork",
-    //       start: "top center",
-    //       end: "bottom center",
-    //       markers: true,
-    //       scrub: true,
-    //     },
-    //   },
-    //   { x: 0 }
-    // );
-    // gsap.fromTo(
-    //   `.right`,
-    //   {
-    //     x: 100,
-    //   },
-    //   {
-    //     x: 0,
-    //   }
-    // );
+    gsap
+      .timeline({
+        scrollTrigger: {
+          trigger: ".selectWork",
+          scroller: "body",
+          start: "top 85%",
+          end: "bottom 40%",
+          // scrub: true, 
+        },
+      })
+      .fromTo(
+        ".selectWork",
+        {
+          x: -100,
+          opacity: 0,
+        },
+        {
+          x: 0,
+          opacity: 1,
+          duration: 0.5,
+          // stagger: 0.2,
+        }
+      );
+
+      gsap
+      .timeline({
+        scrollTrigger: {
+          trigger: ".cardWork",
+          scroller: "body",
+          start: "top 85%",
+          end: "bottom 40%",
+          // scrub: true, 
+        },
+      })
+      .fromTo(
+        ".cardWork",
+        {
+          // y: 40,
+          // opacity: 0,
+          scale:0,
+        },
+        {
+          scale:1,
+          // y: 0,
+          // opacity: 1,
+          duration: 1,
+          stagger: 1,
+        }
+      );
+      gsap
+      .timeline({
+        scrollTrigger: {
+          trigger: ".knowMe",
+          scroller: "body",
+          start: "top 100%",
+          end: "bottom 40%",
+          // scrub: true, 
+        },
+      })
+      .fromTo(
+        ".knowMe",
+        {
+          x: -100,
+          opacity: 0,
+        },
+        {
+          x: 0,
+          opacity: 1,
+          duration: 0.5,
+          // stagger: 0.2,
+        }
+      );
+
+      gsap
+      .timeline({
+        scrollTrigger: {
+          trigger: ".card",
+          scroller: "body",
+          start: "top 85%",
+          end: "bottom 40%",
+          // scrub: true, 
+        },
+      })
+      .fromTo(
+        ".card:first-of-type",
+        {
+          x: -100,
+          opacity: 0,
+        },
+        {
+          x: 0,
+          opacity: 1,
+          duration: 0.5,
+          // stagger: 0.2,
+        }
+      );
+
+      gsap
+      .timeline({
+        scrollTrigger: {
+          trigger: ".card",
+          scroller: "body",
+          start: "top 85%",
+          end: "bottom 40%",
+          // scrub: true, 
+        },
+      })
+      .fromTo(
+        ".card:last-of-type",
+        {
+          x: 100,
+          opacity: 0,
+        },
+        {
+          x: 0,
+          opacity: 1,
+          duration: 0.5,
+          // stagger: 0.2,
+        }
+      );
   }, []);
   // const router = useRouter();
   // const pastProjects = [
@@ -155,14 +252,14 @@ export default function Home() {
       <div className={styles.selectedWork}>
         <h2 className="selectWork">Selected Work</h2>
         {pastProjects.map((item, index) => {
-          return <WorkCard data={item} key={index} className="point" />;
+          return <WorkCard data={item} key={index} className="cardWork" />;
         })}
       </div>
       <div className={styles.knowMeFrame}>
-        <h2>Get to know me</h2>
+        <h2 className="knowMe">Get to know me</h2>
         <div className={styles.knowCards}>
           {profileCards.map((item, index) => {
-            return <ProfileCard data={item} key={index} />;
+            return <ProfileCard data={item} key={index} className="card"/>;
           })}
         </div>
       </div>

@@ -1,9 +1,9 @@
 .HeaderWrapper{
-    background: url("../../../../public/gradient.svg");
+    background: url("../../../../public/unsplash.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-y: -180px;
+    /* background-position-y: -180px; */
     background-position-x: center;
     height: 100vh;
     /* border-bottom:1px solid rgba(255, 255, 255, 0.1); */
