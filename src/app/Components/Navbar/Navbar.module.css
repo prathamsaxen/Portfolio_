@@ -16,7 +16,7 @@
     padding: 12px;
     background-color: #18181d64;
     box-shadow: 0px 8px 5px 0px rgba(0, 0, 0, 0.07) inset;
-      
+    z-index: 10;  
 }
 
 .leftNavbar ul, .rightNavbar ul{
