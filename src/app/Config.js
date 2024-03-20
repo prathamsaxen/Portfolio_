@@ -1,17 +1,33 @@
-// import React from 'react';
-// import { ToastContainer } from 'react-toastify';
-// import Navbar from './Components/Navbar/Navbar';
-// import Footer from './Components/Footer/Footer';
+"use client"
+import React from "react";
+import { ToastContainer } from "react-toastify";
+import Navbar from "./Components/Navbar/Navbar";
+import MainPreLoader from "./Components/MainPreLoader/MainPreLoader";
+import Footer from "./Components/Footer/Footer";
+import { useState,useEffect } from "react";
+function Config({ children }) {
+    const [loader,setLoader]=useState(true);
+    useEffect(()=>{
+        setTimeout(()=>{
+            setLoader(false);
+        },3000);
+    },[])
+  return (
+    <div>
+      <>
+        {loader ? (
+          <MainPreLoader />
+        ) : (
+          <>
+            <ToastContainer />
+            <Navbar />
+            {children}
+            <Footer />
+          </>
+        )}
+      </>
+    </div>
+  );
+}
 
-// function Config({className,children}) {
-//   return (
-//     <div>
-//       <ToastContainer />
-//       <Navbar />
-//       <body className={className.className}>{children}</body>
-//       <Footer />
-//     </div>
-//   )
-// }
-
-// export default Config
+export default Config;

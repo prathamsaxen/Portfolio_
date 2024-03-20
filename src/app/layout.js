@@ -1,23 +1,22 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Navbar from "./Components/Navbar/Navbar";
-import Footer from "./Components/Footer/Footer";
 const inter = Inter({ subsets: ["latin"] });
-import { ToastContainer } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
-
+import "react-toastify/dist/ReactToastify.css";
+import Config from "./Config";
+// import { useEffect } from "react";
+// import MainPreLoader from "./Components/MainPreLoader/MainPreLoader";
 export const metadata = {
   title: "Pratham Saxena",
   description: "Portfolio of Pratham Saxena",
 };
 
 export default function RootLayout({ children }) {
+  // const [load, setLoad] = useState(true);
   return (
     <html lang="en">
-      <ToastContainer/>
-      <Navbar/>
-      <body className={inter.className}>{children}</body>
-      <Footer />
+      <body className={inter.className}>
+      <Config children={children}/>
+      </body>
     </html>
   );
 }
