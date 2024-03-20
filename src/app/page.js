@@ -162,6 +162,103 @@ export default function Home() {
           // stagger: 0.2,
         }
       );
+
+      gsap
+      .timeline({
+        scrollTrigger: {
+          trigger: ".card",
+          scroller: "body",
+          start: "top 85%",
+          end: "bottom 40%",
+          // scrub: true, 
+        },
+      })
+      .fromTo(
+        ".card:first-of-type",
+        {
+          x: -100,
+          opacity: 0,
+        },
+        {
+          x: 0,
+          opacity: 1,
+          duration: 0.5,
+          // stagger: 0.2,
+        }
+      );
+
+
+      gsap
+      .timeline({
+        scrollTrigger: {
+          trigger: ".workTogather",
+          scroller: "body",
+          start: "top 85%",
+          end: "bottom 40%",
+          // scrub: true, 
+        },
+      })
+      .fromTo(
+        ".workTogather",
+        {
+          x: -100,
+          opacity: 0,
+        },
+        {
+          x: 0,
+          opacity: 1,
+          duration: 0.5,
+          // stagger: 0.2,
+        }
+      );
+
+      gsap
+      .timeline({
+        scrollTrigger: {
+          trigger: ".workTogatherPara",
+          scroller: "body",
+          start: "top 85%",
+          end: "bottom 40%",
+          // scrub: true, 
+        },
+      })
+      .fromTo(
+        ".workTogatherPara",
+        {
+          y: 30,
+          opacity: 0,
+        },
+        {
+          y: 0,
+          opacity: 1,
+          duration: 0.5,
+          // stagger: 0.2,
+        }
+      );
+
+      gsap
+      .timeline({
+        scrollTrigger: {
+          trigger: ".workTogatherPara",
+          scroller: "body",
+          start: "top 85%",
+          end: "bottom 40%",
+          // scrub: true, 
+        },
+      })
+      .fromTo(
+        ".button",
+        {
+          scale:0,
+        },
+        {
+          scale:1,
+          duration: 0.5,
+          // stagger: 0.2,
+        }
+      );
+
+
   }, []);
   // const router = useRouter();
   // const pastProjects = [
@@ -265,13 +362,13 @@ export default function Home() {
       </div>
       <div className={styles.contactFrame}>
         <div className={styles.contentContactFrame}>
-          <h2>Let's work together</h2>
-          <p>
+          <h2 className="workTogather">Let's work together</h2>
+          <p className="workTogatherPara">
             Want to discuss an opportunity to create something great? I’m ready
             when you are.
           </p>
         </div>
-        <Link href={"/contact"}>
+        <Link href={"/contact"} className="button">
           <svg
             width="24"
             height="24"
