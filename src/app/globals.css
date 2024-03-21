@@ -143,7 +143,7 @@ a {
 body{
   background-color: #0D0D0D;
 }
-body::before{
+/* body::before{
     content: "";
     position: fixed;
     top: 0;
@@ -152,9 +152,9 @@ body::before{
     height: 100vh;
     background-image: url("../../public/unsplash.jpg");
     /* background-image: url("../../public/gradient.svg"); */
-    background-position: center center;
+    /* background-position: center center; */
     /* background-position-y: 0px; */
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+/* } */ 
 
