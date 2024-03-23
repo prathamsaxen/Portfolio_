@@ -26,6 +26,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background: url("../../public/gradient.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .infoFrame{
     /* border: 2px solid red; */

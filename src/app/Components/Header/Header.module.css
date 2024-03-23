@@ -1,5 +1,5 @@
 .HeaderWrapper{
-    /* background: url("../../../../public/unsplash.jpg"); */
+    background: url("../../../../public/gradient.svg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -7,7 +7,7 @@
     background-position-x: center;
     height: 100vh;
     /* border-bottom:1px solid rgba(255, 255, 255, 0.1); */
-    border: 1px solid transparent;
+    /* border: 1px solid transparent; */
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     /* border-bottom: 1px solid ; */
     z-index: 999;
