@@ -3,7 +3,9 @@ import styles from "./page.module.css";
 import Header from "../Components/Header/Header";
 import pastProjects from "../configurations/projects";
 import WorkCard from "../Components/Card/WorkCard/WorkCard";
+
 export default function page() {
+ 
   return (
     <div className={styles.project}>
       <Header

@@ -1,8 +1,63 @@
-import React from "react";
+'use client'
+import React, { useLayoutEffect } from "react";
 import styles from "./WorkCard.module.css";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+
 function WorkCard(props) {
+
+  useLayoutEffect(() => {
+    gsap.registerPlugin(ScrollTrigger);
+    gsap
+      .timeline({
+        scrollTrigger: {
+          trigger: `.card:first-child`,
+          scroller: "body",
+          start: "top 60%",
+          end: "bottom 40%",
+          // scrub: true, 
+        },
+      })
+      .fromTo(
+        `.card:first-child`,
+        {
+          x: -200,
+          opacity: 0,
+        },
+        {
+          x: 0,
+          opacity: 1,
+          duration: 0.8,
+        }
+      );
+
+    gsap
+      .timeline({
+        scrollTrigger: {
+          trigger: `.card:last-child`,
+          scroller: "body",
+          start: "top 60%",
+          end: "bottom 40%",
+          // scrub: true, 
+        },
+      })
+      .fromTo(
+        `.card:last-child`,
+        {
+          x: 200,
+          opacity: 0,
+        },
+        {
+          x: 0,
+          opacity: 1,
+          duration: 0.8,
+        }
+      );
+
+  }, []);
   return (
-    <div className={`${styles.card} ${props.className}`}>
+    <div className={`${styles.card} ${props.className} card`}>
       <div className={styles.leftCard}>
         <img src={props.data.logo} alt="Error in loading" />
         <h2>{props.data.heading}</h2>
