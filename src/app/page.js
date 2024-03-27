@@ -331,7 +331,7 @@ export default function Home() {
               and building modern mobile and web-based apps.
             </p>
             <div className={`${styles.buttonStacks} point`}>
-              <Link href="/resume.pdf" download>
+              <Link href="/CV.pdf" download>
                 See my resume
               </Link>
               <Link href="/contact">Get in touch</Link>
