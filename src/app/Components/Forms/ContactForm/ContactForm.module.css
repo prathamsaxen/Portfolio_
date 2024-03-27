@@ -4,7 +4,7 @@
     margin: auto;
     /* margin-top: 60px; */
     /* height: 690px; */
-    gap: 70px;
+    gap: 35px;
     border-radius: 12px;
     background: rgba(230, 230, 230, 1);
     border:1px solid rgba(56, 55, 55, 1);
@@ -14,6 +14,8 @@
     justify-content: space-between;
     flex-direction: column;
     z-index: 100;
+    /* border: 2px solid red; */
+    /* background: black; */
 }
 .contactForm img{
     /* border: 2px solid red; */
@@ -37,8 +39,9 @@
     height: 80%;
     /* border: 2px solid red; */
     display: flex;
+    /* gap: 70px; */
     flex-direction: column;
-    gap: 16px;
+    gap: 35px;
     justify-content: center;
     align-items: center;
 }
@@ -58,6 +61,7 @@
     display: flex;
     gap: 5px;
     align-items: center;
+    /* color: black; */
 }
 .labels label{
     font-family: Inter;
@@ -67,6 +71,8 @@
     letter-spacing: 0em;
     text-align: left;
     color: rgba(255, 255, 255, 1);
+    color: black;
+    /* width: 9%; */
 }
 .labels input{
     width: 100%;
@@ -81,6 +87,7 @@
     letter-spacing: 0em;
     text-align: left;
     color: rgba(128, 128, 128, 0.5);
+    color: black;
 
 }
 .textArea{
@@ -99,7 +106,11 @@
     font-size: "Inter";
     font-weight: 400;
     font-size: 16px;
+    color: white;
 
+}
+.textArea textarea::placeholder{
+    color: white;
 }
 .formFooter{
     /* height: 5%; */
