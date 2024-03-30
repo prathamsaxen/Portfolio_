@@ -1,0 +1,26 @@
+.container{
+    /* border: 2px solid white; */
+    margin-top: 100px;
+}
+.mainContainer{
+    width: 80%;
+    margin: auto;
+}
+.mainContainer h2{
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 48px;
+    color: rgba(255, 255, 255, 1);
+    line-height: 58.09px;
+}
+
+.chart{
+    /* border: 2px solid red; */
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .react-activity-calendar{
+    color: white !important;
+} */

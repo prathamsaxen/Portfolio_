@@ -10,6 +10,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import pastProjects from "./configurations/projects";
 import Link from "next/link";
 import { useLayoutEffect } from "react";
+import Github from "./Components/Github/Github";
 // import MainPreLoader from "./Components/MainPreLoader/MainPreLoader";
 // import { Link } from 'next/router';
 export default function Home() {
@@ -346,6 +347,7 @@ export default function Home() {
         </div> */}
         </div>
       </div>
+      <Github/>
       <div className={styles.selectedWork}>
         <h2 className="selectWork">Selected Work</h2>
         {pastProjects.map((item, index) => {
