@@ -9,51 +9,51 @@ function WorkCard(props) {
 
   useLayoutEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
-    gsap
-      .timeline({
-        scrollTrigger: {
-          trigger: `.card:first-child`,
-          scroller: "body",
-          start: "top 60%",
-          end: "bottom 40%",
-          // scrub: true, 
-        },
-      })
-      .fromTo(
-        `.card:first-child`,
-        {
-          x: -200,
-          opacity: 0,
-        },
-        {
-          x: 0,
-          opacity: 1,
-          duration: 0.8,
-        }
-      );
+    // gsap
+    //   .timeline({
+    //     scrollTrigger: {
+    //       trigger: `.card:first-child`,
+    //       scroller: "body",
+    //       start: "top 60%",
+    //       end: "bottom 40%",
+    //       // scrub: true, 
+    //     },
+    //   })
+    //   .fromTo(
+    //     `.card:first-child`,
+    //     {
+    //       x: -200,
+    //       opacity: 0,
+    //     },
+    //     {
+    //       x: 0,
+    //       opacity: 1,
+    //       duration: 0.8,
+    //     }
+    //   );
 
-    gsap
-      .timeline({
-        scrollTrigger: {
-          trigger: `.card:last-child`,
-          scroller: "body",
-          start: "top 60%",
-          end: "bottom 40%",
-          // scrub: true, 
-        },
-      })
-      .fromTo(
-        `.card:last-child`,
-        {
-          x: 200,
-          opacity: 0,
-        },
-        {
-          x: 0,
-          opacity: 1,
-          duration: 0.8,
-        }
-      );
+    // gsap
+    //   .timeline({
+    //     scrollTrigger: {
+    //       trigger: `.card:last-child`,
+    //       scroller: "body",
+    //       start: "top 60%",
+    //       end: "bottom 40%",
+    //       // scrub: true, 
+    //     },
+    //   })
+    //   .fromTo(
+    //     `.card:last-child`,
+    //     {
+    //       x: 200,
+    //       opacity: 0,
+    //     },
+    //     {
+    //       x: 0,
+    //       opacity: 1,
+    //       duration: 0.8,
+    //     }
+    //   );
 
   }, []);
   return (

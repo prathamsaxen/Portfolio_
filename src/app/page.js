@@ -43,223 +43,198 @@ export default function Home() {
         y: 0,
       }
     );
-    gsap
-      .timeline({
-        scrollTrigger: {
-          trigger: ".selectWork",
-          scroller: "body",
-          start: "top 85%",
-          end: "bottom 40%",
-          // scrub: true, 
-        },
-      })
-      .fromTo(
-        ".selectWork",
-        {
-          x: -100,
-          opacity: 0,
-        },
-        {
-          x: 0,
-          opacity: 1,
-          duration: 0.5,
-          // stagger: 0.2,
-        }
-      );
+    // gsap
+    //   .timeline({
+    //     scrollTrigger: {
+    //       trigger: ".selectWork",
+    //       scroller: "body",
+    //       start: "top 85%",
+    //       end: "bottom 40%",
+    //       // scrub: true,
+    //     },
+    //   })
+    //   .fromTo(
+    //     ".selectWork",
+    //     {
+    //       x: -100,
+    //       opacity: 0,
+    //     },
+    //     {
+    //       x: 0,
+    //       opacity: 1,
+    //       duration: 0.5,
+    //       // stagger: 0.2,
+    //     }
+    //   );
 
-      gsap
-      .timeline({
-        scrollTrigger: {
-          trigger: ".cardWork",
-          scroller: "body",
-          start: "top 85%",
-          end: "bottom 40%",
-          // scrub: true, 
-        },
-      })
-      .fromTo(
-        ".cardWork",
-        {
-          // y: 40,
-          // opacity: 0,
-          scale:0,
-        },
-        {
-          scale:1,
-          // y: 0,
-          // opacity: 1,
-          duration: 1,
-          stagger: 1,
-        }
-      );
-      gsap
-      .timeline({
-        scrollTrigger: {
-          trigger: ".knowMe",
-          scroller: "body",
-          start: "top 100%",
-          end: "bottom 40%",
-          // scrub: true, 
-        },
-      })
-      .fromTo(
-        ".knowMe",
-        {
-          x: -100,
-          opacity: 0,
-        },
-        {
-          x: 0,
-          opacity: 1,
-          duration: 0.5,
-          // stagger: 0.2,
-        }
-      );
+    // gsap
+    // .timeline({
+    //   scrollTrigger: {
+    //     trigger: ".cardWork",
+    //     scroller: "body",
+    //     start: "top 85%",
+    //     end: "bottom 40%",
+    //     // scrub: true,
+    //   },
+    // })
+    // .fromTo(
+    //   ".cardWork",
+    //   {
+    //     // y: 40,
+    //     // opacity: 0,
+    //     scale:0,
+    //   },
+    //   {
+    //     scale:1,
+    //     // y: 0,
+    //     // opacity: 1,
+    //     duration: 1,
+    //     stagger: 1,
+    //   }
+    // );
+    // gsap
+    // .timeline({
+    //   scrollTrigger: {
+    //     trigger: ".knowMe",
+    //     scroller: "body",
+    //     start: "top 100%",
+    //     end: "bottom 40%",
+    //     // scrub: true,
+    //   },
+    // })
+    // .fromTo(
+    //   ".knowMe",
+    //   {
+    //     x: -100,
+    //     opacity: 0,
+    //   },
+    //   {
+    //     x: 0,
+    //     opacity: 1,
+    //     duration: 0.5,
+    //     // stagger: 0.2,
+    //   }
+    // );
 
-      gsap
-      .timeline({
-        scrollTrigger: {
-          trigger: ".card",
-          scroller: "body",
-          start: "top 85%",
-          end: "bottom 40%",
-          // scrub: true, 
-        },
-      })
-      .fromTo(
-        ".card:first-of-type",
-        {
-          x: -100,
-          opacity: 0,
-        },
-        {
-          x: 0,
-          opacity: 1,
-          duration: 0.5,
-          // stagger: 0.2,
-        }
-      );
+    // gsap
+    // .timeline({
+    //   scrollTrigger: {
+    //     trigger: ".card",
+    //     scroller: "body",
+    //     start: "top 85%",
+    //     end: "bottom 40%",
+    //     // scrub: true,
+    //   },
+    // })
+    // .fromTo(
+    //   ".card:first-of-type",
+    //   {
+    //     x: -100,
+    //     opacity: 0,
+    //   },
+    //   {
+    //     x: 0,
+    //     opacity: 1,
+    //     duration: 0.5,
+    //     // stagger: 0.2,
+    //   }
+    // );
 
-      gsap
-      .timeline({
-        scrollTrigger: {
-          trigger: ".card",
-          scroller: "body",
-          start: "top 85%",
-          end: "bottom 40%",
-          // scrub: true, 
-        },
-      })
-      .fromTo(
-        ".card:last-of-type",
-        {
-          x: 100,
-          opacity: 0,
-        },
-        {
-          x: 0,
-          opacity: 1,
-          duration: 0.5,
-          // stagger: 0.2,
-        }
-      );
+    // gsap
+    // .timeline({
+    //   scrollTrigger: {
+    //     trigger: ".card",
+    //     scroller: "body",
+    //     start: "top 85%",
+    //     end: "bottom 40%",
+    //     // scrub: true,
+    //   },
+    // })
+    // .fromTo(
+    //   ".card:last-of-type",
+    //   {
+    //     x: 100,
+    //     opacity: 0,
+    //   },
+    //   {
+    //     x: 0,
+    //     opacity: 1,
+    //     duration: 0.5,
+    //     // stagger: 0.2,
+    //   }
+    // );
 
-      gsap
-      .timeline({
-        scrollTrigger: {
-          trigger: ".card",
-          scroller: "body",
-          start: "top 85%",
-          end: "bottom 40%",
-          // scrub: true, 
-        },
-      })
-      .fromTo(
-        ".card:first-of-type",
-        {
-          x: -100,
-          opacity: 0,
-        },
-        {
-          x: 0,
-          opacity: 1,
-          duration: 0.5,
-          // stagger: 0.2,
-        }
-      );
+    // gsap
+    // .timeline({
+    //   scrollTrigger: {
+    //     trigger: ".card",
+    //     scroller: "body",
+    //     start: "top 85%",
+    //     end: "bottom 40%",
+    //     // scrub: true,
+    //   },
+    // })
+    // .fromTo(
+    //   ".card:first-of-type",
+    //   {
+    //     x: -100,
+    //     opacity: 0,
+    //   },
+    //   {
+    //     x: 0,
+    //     opacity: 1,
+    //     duration: 0.5,
+    //     // stagger: 0.2,
+    //   }
+    // );
 
+    // gsap
+    // .timeline({
+    //   scrollTrigger: {
+    //     trigger: ".workTogather",
+    //     scroller: "body",
+    //     start: "top 85%",
+    //     end: "bottom 40%",
+    //     // scrub: true,
+    //   },
+    // })
+    // .fromTo(
+    //   ".workTogather",
+    //   {
+    //     x: -100,
+    //     opacity: 0,
+    //   },
+    //   {
+    //     x: 0,
+    //     opacity: 1,
+    //     duration: 0.5,
+    //     // stagger: 0.2,
+    //   }
+    // );
 
-      gsap
-      .timeline({
-        scrollTrigger: {
-          trigger: ".workTogather",
-          scroller: "body",
-          start: "top 85%",
-          end: "bottom 40%",
-          // scrub: true, 
-        },
-      })
-      .fromTo(
-        ".workTogather",
-        {
-          x: -100,
-          opacity: 0,
-        },
-        {
-          x: 0,
-          opacity: 1,
-          duration: 0.5,
-          // stagger: 0.2,
-        }
-      );
-
-      gsap
-      .timeline({
-        scrollTrigger: {
-          trigger: ".workTogatherPara",
-          scroller: "body",
-          start: "top 85%",
-          end: "bottom 40%",
-          // scrub: true, 
-        },
-      })
-      .fromTo(
-        ".workTogatherPara",
-        {
-          y: 30,
-          opacity: 0,
-        },
-        {
-          y: 0,
-          opacity: 1,
-          duration: 0.5,
-          // stagger: 0.2,
-        }
-      );
-
-      gsap
-      .timeline({
-        scrollTrigger: {
-          trigger: ".workTogatherPara",
-          scroller: "body",
-          start: "top 85%",
-          end: "bottom 40%",
-          // scrub: true, 
-        },
-      })
-      .fromTo(
-        ".button",
-        {
-          scale:0,
-        },
-        {
-          scale:1,
-          duration: 0.5,
-          // stagger: 0.2,
-        }
-      );
-
-
+    // gsap
+    // .timeline({
+    //   scrollTrigger: {
+    //     trigger: ".workTogatherPara",
+    //     scroller: "body",
+    //     start: "top 85%",
+    //     end: "bottom 40%",
+    //     // scrub: true,
+    //   },
+    // })
+    // .fromTo(
+    //   ".workTogatherPara",
+    //   {
+    //     y: 30,
+    //     opacity: 0,
+    //   },
+    //   {
+    //     y: 0,
+    //     opacity: 1,
+    //     duration: 0.5,
+    //     // stagger: 0.2,
+    //   }
+    // );
   }, []);
   // const router = useRouter();
   // const pastProjects = [
@@ -347,7 +322,7 @@ export default function Home() {
         </div> */}
         </div>
       </div>
-      <Github/>
+      <Github />
       <div className={styles.selectedWork}>
         <h2 className="selectWork">Selected Work</h2>
         {pastProjects.map((item, index) => {
@@ -358,7 +333,7 @@ export default function Home() {
         <h2 className="knowMe">Get to know me</h2>
         <div className={styles.knowCards}>
           {profileCards.map((item, index) => {
-            return <ProfileCard data={item} key={index} className="card"/>;
+            return <ProfileCard data={item} key={index} className="card" />;
           })}
         </div>
       </div>
