@@ -1,18 +1,13 @@
 "use client";
 import styles from "./page.module.css";
-// import Lottie from "lottie-react";
-// import animation from "./Animation/animation.json";
 import WorkCard from "./Components/Card/WorkCard/WorkCard";
 import ProfileCard from "./Components/Card/ProfileCard/ProfileCard";
-// import Footer from "./Components/Footer/Footer";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import pastProjects from "./configurations/projects";
 import Link from "next/link";
 import { useLayoutEffect } from "react";
 import Github from "./Components/Github/Github";
-// import MainPreLoader from "./Components/MainPreLoader/MainPreLoader";
-// import { Link } from 'next/router';
 export default function Home() {
   // const [loader,setLoader]=useState(true);
   gsap.registerPlugin(ScrollTrigger);
@@ -42,242 +37,7 @@ export default function Home() {
         stagger: 0.2,
         y: 0,
       }
-    );
-    // gsap
-    //   .timeline({
-    //     scrollTrigger: {
-    //       trigger: ".selectWork",
-    //       scroller: "body",
-    //       start: "top 85%",
-    //       end: "bottom 40%",
-    //       // scrub: true,
-    //     },
-    //   })
-    //   .fromTo(
-    //     ".selectWork",
-    //     {
-    //       x: -100,
-    //       opacity: 0,
-    //     },
-    //     {
-    //       x: 0,
-    //       opacity: 1,
-    //       duration: 0.5,
-    //       // stagger: 0.2,
-    //     }
-    //   );
-
-    // gsap
-    // .timeline({
-    //   scrollTrigger: {
-    //     trigger: ".cardWork",
-    //     scroller: "body",
-    //     start: "top 85%",
-    //     end: "bottom 40%",
-    //     // scrub: true,
-    //   },
-    // })
-    // .fromTo(
-    //   ".cardWork",
-    //   {
-    //     // y: 40,
-    //     // opacity: 0,
-    //     scale:0,
-    //   },
-    //   {
-    //     scale:1,
-    //     // y: 0,
-    //     // opacity: 1,
-    //     duration: 1,
-    //     stagger: 1,
-    //   }
-    // );
-    // gsap
-    // .timeline({
-    //   scrollTrigger: {
-    //     trigger: ".knowMe",
-    //     scroller: "body",
-    //     start: "top 100%",
-    //     end: "bottom 40%",
-    //     // scrub: true,
-    //   },
-    // })
-    // .fromTo(
-    //   ".knowMe",
-    //   {
-    //     x: -100,
-    //     opacity: 0,
-    //   },
-    //   {
-    //     x: 0,
-    //     opacity: 1,
-    //     duration: 0.5,
-    //     // stagger: 0.2,
-    //   }
-    // );
-
-    // gsap
-    // .timeline({
-    //   scrollTrigger: {
-    //     trigger: ".card",
-    //     scroller: "body",
-    //     start: "top 85%",
-    //     end: "bottom 40%",
-    //     // scrub: true,
-    //   },
-    // })
-    // .fromTo(
-    //   ".card:first-of-type",
-    //   {
-    //     x: -100,
-    //     opacity: 0,
-    //   },
-    //   {
-    //     x: 0,
-    //     opacity: 1,
-    //     duration: 0.5,
-    //     // stagger: 0.2,
-    //   }
-    // );
-
-    // gsap
-    // .timeline({
-    //   scrollTrigger: {
-    //     trigger: ".card",
-    //     scroller: "body",
-    //     start: "top 85%",
-    //     end: "bottom 40%",
-    //     // scrub: true,
-    //   },
-    // })
-    // .fromTo(
-    //   ".card:last-of-type",
-    //   {
-    //     x: 100,
-    //     opacity: 0,
-    //   },
-    //   {
-    //     x: 0,
-    //     opacity: 1,
-    //     duration: 0.5,
-    //     // stagger: 0.2,
-    //   }
-    // );
-
-    // gsap
-    // .timeline({
-    //   scrollTrigger: {
-    //     trigger: ".card",
-    //     scroller: "body",
-    //     start: "top 85%",
-    //     end: "bottom 40%",
-    //     // scrub: true,
-    //   },
-    // })
-    // .fromTo(
-    //   ".card:first-of-type",
-    //   {
-    //     x: -100,
-    //     opacity: 0,
-    //   },
-    //   {
-    //     x: 0,
-    //     opacity: 1,
-    //     duration: 0.5,
-    //     // stagger: 0.2,
-    //   }
-    // );
-
-    // gsap
-    // .timeline({
-    //   scrollTrigger: {
-    //     trigger: ".workTogather",
-    //     scroller: "body",
-    //     start: "top 85%",
-    //     end: "bottom 40%",
-    //     // scrub: true,
-    //   },
-    // })
-    // .fromTo(
-    //   ".workTogather",
-    //   {
-    //     x: -100,
-    //     opacity: 0,
-    //   },
-    //   {
-    //     x: 0,
-    //     opacity: 1,
-    //     duration: 0.5,
-    //     // stagger: 0.2,
-    //   }
-    // );
-
-    // gsap
-    // .timeline({
-    //   scrollTrigger: {
-    //     trigger: ".workTogatherPara",
-    //     scroller: "body",
-    //     start: "top 85%",
-    //     end: "bottom 40%",
-    //     // scrub: true,
-    //   },
-    // })
-    // .fromTo(
-    //   ".workTogatherPara",
-    //   {
-    //     y: 30,
-    //     opacity: 0,
-    //   },
-    //   {
-    //     y: 0,
-    //     opacity: 1,
-    //     duration: 0.5,
-    //     // stagger: 0.2,
-    //   }
-    // );
-  }, []);
-  // const router = useRouter();
-  // const pastProjects = [
-  //   {
-  //     logo: "/printila_logo.png",
-  //     description: `Codefeast stands as an advanced project tailored for the edtech
-  //     industry. Crafted using cutting-edge technologies like React JS and
-  //     modular CSS, alongside other complementary stacks, this initiative is
-  //     dedicated to providing a comprehensive platform. Within its framework,
-  //     Codefeast offers a diverse array of features and courses, facilitating
-  //     students in their journey to master coding and stay abreast of
-  //     emerging technologies.`,
-  //     heading: "Printila - E commerce platform",
-  //     link: "https://test.seller.printila.in/",
-  //     demoImage: "/printila_demo.png",
-  //   },
-  //   {
-  //     logo: "/codefeastLogo.png",
-  //     description: `Codefeast stands as an advanced project tailored for the edtech
-  //     industry. Crafted using cutting-edge technologies like React JS and
-  //     modular CSS, alongside other complementary stacks, this initiative is
-  //     dedicated to providing a comprehensive platform. Within its framework,
-  //     Codefeast offers a diverse array of features and courses, facilitating
-  //     students in their journey to master coding and stay abreast of
-  //     emerging technologies.`,
-  //     heading: "Codefeast - Coding based edtech platform",
-  //     link: "https://codefeast.in/",
-  //     demoImage: "/codefeast.png",
-  //   },
-  //   // {
-  //   //   logo: "/codefeastLogo.png",
-  //   //   description: `Codefeast stands as an advanced project tailored for the edtech
-  //   //   industry. Crafted using cutting-edge technologies like React JS and
-  //   //   modular CSS, alongside other complementary stacks, this initiative is
-  //   //   dedicated to providing a comprehensive platform. Within its framework,
-  //   //   Codefeast offers a diverse array of features and courses, facilitating
-  //   //   students in their journey to master coding and stay abreast of
-  //   //   emerging technologies.`,
-  //   //   heading:"Codefeast - Coding based edtech platform",
-  //   //   link:"https://codefeast.in/",
-  //   //   demoImage:"/codefeast.png"
-  //   // },
-  // ];
+    );})
   const profileCards = [
     {
       title: "About Me",
@@ -307,19 +67,12 @@ export default function Home() {
               and building modern mobile and web-based apps.
             </p>
             <div className={`${styles.buttonStacks} point`}>
-              <Link href="/CV.pdf" download>
+              <Link href="">
                 See my resume
               </Link>
               <Link href="/contact">Get in touch</Link>
             </div>
           </div>
-          {/* <div className={styles.rightInfoFrame}>
-          <Lottie
-            animationData={animation}
-            loop={true}
-            className={styles.anim}
-          />
-        </div> */}
         </div>
       </div>
       <Github />
