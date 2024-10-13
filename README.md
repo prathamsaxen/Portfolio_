@@ -8,4 +8,3 @@ This repository contains the code for Pratham Saxena's portfolio frontend, built
 ## Tech Stack
 
 **Client:** Next JS, React, TailwindCSS
-
