@@ -5,14 +5,6 @@ import Header from "../Components/Header/Header";
 export default function page() {
   return (
     <div className={styles.about}>
-      {/* <div className={styles.gradient}></div> */}
-      {/* <div className={styles.logo}>℘</div>
-      <div className={styles.aboutWrapper}>
-        <div className={styles.Wrapper}>
-          <h1>A little bit about me</h1>
-          <p>Who I am and what i do</p>
-        </div>
-      </div> */}
       <Header
         title={"A little bit about me"}
         subtitle={"Who I am and What I do"}
@@ -30,15 +22,6 @@ export default function page() {
           <div className={styles.contentDisplay}>
             <p>What I Do</p>
             <p>
-              {/* With two years of invaluable experience in my role at Harmony
-              Technology –– a tech company based here in Rabat, I have honed my
-              skills in React.js, Next.js, TailwindCSS, and TypeScript, allowing
-              me to craft seamless and interactive user experiences. During my
-              time at Harmony Technology, I had the privilege of collaborating
-              on projects for esteemed clients such as the Ministry of Health,
-              Ministry of Education, and Ministry of Justice. It was an
-              incredibly rewarding experience to develop applications that
-              directly impact the lives of Moroccan citizens. */}
               As a frontend developer, my responsibility is to transform design
               concepts into operational code. I leverage my expertise in React
               JS, Next JS, HTML, CSS, and JavaScript to achieve this goal
@@ -53,11 +36,6 @@ export default function page() {
           <div className={styles.contentDisplay}>
             <p>What I Did</p>
             <p>
-              {/* Before delving into the realm of front end engineering, I spent
-              five years as a graphic designer. This background has equipped me
-              with a keen eye for aesthetics and a deep understanding of
-              user-centered design principles. It enables me to seamlessly blend
-              functionality and visual appeal in every project I undertake. */}
               I am a frontend developer with comprehensive expertise spanning
               the entire development life cycle. Additionally, during my tenure
               as an Engineering Intern, I've garnered valuable experience

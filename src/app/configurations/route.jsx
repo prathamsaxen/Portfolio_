@@ -15,10 +15,10 @@ const route = [
       text: "Technical",
       route: "/tech-stack",
     },
-    // {
-    //   text: "Education",
-    //   route: "/education",
-    // },
+    {
+      text: "Blogs",
+      route: "/blogs",
+    },
     {
       text: "Contact",
       route: "/contact",
