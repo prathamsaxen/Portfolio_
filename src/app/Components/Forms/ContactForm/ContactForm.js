@@ -4,10 +4,6 @@ import styles from "./ContactForm.module.css";
 function ContactForm(props) {
   return (
     <div className={styles.contactForm} style={{ marginTop: props.marginTOP }}>
-      {/* <div className={styles.FormHeader}>
-          <img src="/controls.svg" alt="Error in Loading..." />
-          <h1>Text Message</h1>
-        </div> */}
       <img src="/contact/MAC.svg" alt="Error in Loading" />
       <div className={styles.mainForm}>
         <div className={styles.inputLabels}>
