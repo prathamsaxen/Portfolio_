@@ -1,4 +1,3 @@
-// Images should be in 114*114 dimensions.
 
 const TechStack = [
     {
