@@ -1,69 +1,55 @@
-.contactForm{
-    /* border: 2px solid red; */
+.contactForm {
     width: 60%;
     margin: auto;
-    /* margin-top: 60px; */
-    /* height: 690px; */
     gap: 35px;
     border-radius: 12px;
     background: rgba(230, 230, 230, 1);
-    border:1px solid rgba(56, 55, 55, 1);
-    /* border: 2px solid red; */
-    /* border: none; */
+    border: 1px solid rgba(56, 55, 55, 1);
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     z-index: 100;
-    /* border: 2px solid red; */
-    /* background: black; */
 }
-.contactForm img{
-    /* border: 2px solid red; */
+.contactForm img {
     width: 100%;
 }
-.FormHeader{
-    /* border: 2px solid red; */
+.FormHeader {
     border-radius: 12px;
     height: 5%;
     display: flex;
     align-items: center;
     padding: 10px;
-    justify-content: space-between ;
+    justify-content: space-between;
 }
-.FormHeader h1{
+.FormHeader h1 {
     font-size: 16px;
     font-weight: 500;
-    font-family: "Inter";
+    font-family: 'Inter';
 }
-.mainForm{
+.mainForm {
     height: 80%;
-    /* border: 2px solid red; */
     display: flex;
-    /* gap: 70px; */
     flex-direction: column;
     gap: 35px;
     justify-content: center;
     align-items: center;
 }
-.inputLabels , .textArea{
-    /* border: 2px solid pink; */
+.inputLabels,
+.textArea {
     width: 90%;
-
 }
-.inputLabels{
+.inputLabels {
     height: 30%;
     display: flex;
     flex-direction: column;
     gap: 16px;
 }
-.labels{
-    /* border: 2px solid red; */
+.labels {
     display: flex;
     gap: 5px;
     align-items: center;
-    /* color: black; */
 }
-.labels label{
+.labels label {
     font-family: Inter;
     font-size: 16px;
     font-weight: 500;
@@ -72,9 +58,8 @@
     text-align: left;
     color: rgba(255, 255, 255, 1);
     color: black;
-    /* width: 9%; */
 }
-.labels input{
+.labels input {
     width: 100%;
     padding: 5px;
     background: transparent;
@@ -88,32 +73,28 @@
     text-align: left;
     color: rgba(128, 128, 128, 0.5);
     color: black;
-
 }
-.textArea{
+.textArea {
     height: 60%;
 }
-.textArea textarea{
+.textArea textarea {
     width: 100%;
     height: 100%;
     resize: none;
-    /* padding: 10px; */
     background-color: rgba(13, 13, 13, 1);
     border-radius: 12px;
     padding: 24px;
     color: rgba(128, 128, 128, 0.5);
     box-shadow: 0px 19px 30px 0px rgba(0, 0, 0, 0.2);
-    font-size: "Inter";
+    font-size: 'Inter';
     font-weight: 400;
     font-size: 16px;
     color: white;
-
 }
-.textArea textarea::placeholder{
+.textArea textarea::placeholder {
     color: white;
 }
-.formFooter{
-    /* height: 5%; */
+.formFooter {
     background: rgba(22, 22, 22, 1);
     border-radius: 11px;
     border-top-left-radius: 0;
@@ -123,23 +104,17 @@
     align-items: center;
     padding: 15px;
     border: none;
-    /* border: 2px solid black; */
 }
-.formFooter button{
-    /* width:109px;
-    height: 60px; */
+.formFooter button {
     padding: 16px 32px 16px 32px;
     border-radius: 9px;
     gap: 8px;
-    box-shadow: 
-    0px 7px 4px 0px rgba(0, 0, 0, 0.15),
-    0px 2px 4px 0px rgba(255, 255, 255, 0.08) inset,
-    0px 1px 2px 0px rgba(255, 255, 255, 0.02) inset;
-    background: linear-gradient(180deg, #1A1A1A 0%, #131313 100%);
+    box-shadow: 0px 7px 4px 0px rgba(0, 0, 0, 0.15), 0px 2px 4px 0px rgba(255, 255, 255, 0.08) inset, 0px 1px 2px 0px rgba(255, 255, 255, 0.02) inset;
+    background: linear-gradient(180deg, #1a1a1a 0%, #131313 100%);
     border: none;
     color: rgba(255, 255, 255, 1);
     font-size: 18px;
-    font-family: "Inter";
+    font-family: 'Inter';
     font-weight: 500;
     cursor: pointer;
 }
@@ -148,11 +123,11 @@
     .contactForm {
         width: 90%;
     }
-    
-    .formFooter{    
+
+    .formFooter {
         justify-content: center;
     }
-    .formFooter button{
+    .formFooter button {
         width: 90%;
     }
 }

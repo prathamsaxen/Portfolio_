@@ -1,58 +1,15 @@
-.about{
-    /* background-image: url("../../../public/gradient.svg");
-    background-position: center center;
-    background-position-y: -1200px;
-    /* background-position: 0%; */
-    /* background-repeat: no-repeat; */
-    /* background-size: cover; */
-    /* border: 1px solid gold;  */
+.about {
     height: max-content;
-    /* border: 2px solid red; */
 }
-/* .gradient{
-    /* border: 2px solid red; */
-    /* height: 40vh;
-    position: absolute;
-    width: 100%;
-    background-image: url("../../../public/gradient.svg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    border-radius: 100%;
-    top:-20%; */
-.about span,.about a{
+
+.about span,
+.about a {
     color: white;
     cursor: pointer;
     text-decoration: none;
 }
 
-/* .aboutWrapper{
-    border: 2px solid white;
-    height: 58vh;
-    /* border:2px solid rgba(255, 255, 255, 0.1); */
-/* } */
-/* 
-.Wrapper{
-    /* border: 2px solid red; */
-    /* width: 80%; */
-    /* margin: auto; */
-    /* margin-top: 278px; */
-/* } */
-/* .Wrapper h1{ */
-    /* font-size: 80px; */
-    /* font-weight: 700; */
-    /* font-family: "Inter"; */
-    /* line-height: 96.82px; */
-    /* color: rgba(255, 255, 255, 1); */
-/* } */
-/* .Wrapper p{ */
-    /* font-size: 24px; */
-    /* font-weight: 400; */
-    /* font-family: "Inter"; */ 
-    /* color: rgba(128, 128, 128, 0.5); */
-    /* line-height: 29.05px; */
-/* } */ 
-.aboutContent{
-    /* border: 2px solid red; */
+.aboutContent {
     width: 80%;
     margin: auto;
     margin-top: 120px;
@@ -61,42 +18,38 @@
     gap: 75px;
 }
 .leftAboutContent {
-    /* border: 2px solid green; */
     width: 100%;
     gap: 30px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-.rightAboutContent{
-    /* border: 2px solid pink; */
+.rightAboutContent {
     width: 100%;
     display: flex;
     flex-direction: column;
 }
-.contentDisplay{
-    /* border: 2px solid beige; */
+.contentDisplay {
     display: flex;
     flex-direction: column;
     gap: 8px;
-    /* border: 2px solid red; */
 }
-.contentDisplay p:first-of-type{
+.contentDisplay p:first-of-type {
     color: rgba(128, 128, 128, 0.47);
-    font: "Inter";
+    font: 'Inter';
     font-weight: 400;
     font-size: 16px;
     line-height: 19.36px;
 }
-.contentDisplay p:last-of-type ,.leftContactContent p{
+.contentDisplay p:last-of-type,
+.leftContactContent p {
     font-size: 18px;
-    font-family: "Inter";
+    font-family: 'Inter';
     font-weight: 400;
     color: rgba(128, 128, 128, 1);
     line-height: 23.7px;
 }
-.contactContent{
-    /* border: 2px solid red; */
+.contactContent {
     width: 80%;
     margin: auto;
     margin-top: 60px;
@@ -104,24 +57,22 @@
     gap: 32px;
     justify-content: center;
 }
-.leftContactContent{
-    /* border: 2px solid green; */
+.leftContactContent {
     width: 100%;
 }
-.rightContactContent{
-    /* border: 2px solid pink; */
+.rightContactContent {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.rightContactContent a{
+.rightContactContent a {
     width: 201px;
     height: 60px;
     padding: 16px 32px 16px 32px;
     border-radius: 9px;
     gap: 8px;
-    background: linear-gradient(180deg, #1A1A1A 0%, #131313 100%);
+    background: linear-gradient(180deg, #1a1a1a 0%, #131313 100%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -129,28 +80,25 @@
     text-decoration: none;
     font-size: 17.5px;
     box-shadow: 0px 1px 2px 0px rgba(255, 255, 255, 0.02) inset;
-    /* border: 2px solid red; */
     background: transparent;
     box-shadow: 0px 7px 4px 0px rgba(0, 0, 0, 0.15), 0px 2px 4px 0px rgba(255, 255, 255, 0.08) inset, 0px 1px 2px 0px rgba(255, 255, 255, 0.02) inset;
-
 }
-.signatureDiv{
-    /* border: 2px solid red; */
+.signatureDiv {
     width: 100%;
     margin: auto;
     margin-top: 120px;
 }
-.signatureDiv img{
+.signatureDiv img {
     width: 50%;
 }
-.logo{
+.logo {
     display: none;
 }
-@media screen and (max-width:767px) {
-    .about{
+@media screen and (max-width: 767px) {
+    .about {
         background-position-y: -1500px;
     }
-    .logo{
+    .logo {
         display: block;
         position: absolute;
         color: white;
@@ -159,40 +107,35 @@
         left: 50%;
         transform: translateX(-50%);
     }
-    .aboutWrapper{
+    .aboutWrapper {
         height: 400px;
     }
-    .Wrapper{
-        /* border: 2px solid red; */
+    .Wrapper {
         width: 90%;
-        /* height: 400px; */
     }
-    .Wrapper h1{
+    .Wrapper h1 {
         font-size: 3.5rem;
         line-height: 50px;
     }
-    .aboutContent{
+    .aboutContent {
         flex-direction: column-reverse;
     }
-    .contactContent{
+    .contactContent {
         flex-direction: column;
     }
-    .signatureDiv{
-        /* border: 2px solid red; */
+    .signatureDiv {
         display: flex;
         justify-content: center;
         align-items: center;
         margin-top: 80px;
     }
-    .signatureDiv img{
+    .signatureDiv img {
         width: 90%;
     }
-    .rightContactContent{
-        width: 100%;
-        /* border:2px solid red; */
-    }
-    .rightContactContent a{
+    .rightContactContent {
         width: 100%;
     }
-
+    .rightContactContent a {
+        width: 100%;
+    }
 }

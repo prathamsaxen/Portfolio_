@@ -1,11 +1,10 @@
-.footer{
+.footer {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
     margin-top: 114px;
     z-index: 11;
 }
-.gradient{
+.gradient {
     width: 80%;
-    /* border: 2px solid red; */
     margin: auto;
     margin-top: 32px;
     min-height: 294px;
@@ -13,81 +12,78 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: url("../../../../public/gradient.svg");
+    background: url('../../../../public/gradient.svg');
     background-position: center center;
     background-size: contain;
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: 10px;
 }
-.leftFooter{
+.leftFooter {
     display: flex;
     flex-direction: column;
     gap: 32px;
 }
-.leftFooter h2{
+.leftFooter h2 {
     font-size: 50px;
 }
-.leftFooter p{
-    font-family: "Inter", sans-serif;
+.leftFooter p {
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 14px;
     color: var(--MediumGray);
     line-height: 16px;
 }
-.upper p{
-    font-family: "Inter";
+.upper p {
+    font-family: 'Inter';
     font-weight: 500;
     font-size: 20px;
     color: var(--MediumGray);
     line-height: 24.2px;
     margin-top: 24.2px;
 }
-.rightFooter{
-    /* border: 2px solid red; */
+.rightFooter {
     display: flex;
     justify-content: space-between;
     gap: 120px;
 }
-.Links{
+.Links {
     display: flex;
     flex-direction: column;
 }
-.Links p{
+.Links p {
     margin-bottom: 32px;
 }
-.Links a{
+.Links a {
     margin-bottom: 16px;
     color: rgba(197, 197, 197, 1);
-    font-family: "Inter";
+    font-family: 'Inter';
     font-weight: 400 !important;
     font-size: 16px !important;
     text-decoration: none;
 }
-.gradient{
+.gradient {
     z-index: -1;
 }
 @media screen and (max-width: 768px) {
-    .gradient{
+    .gradient {
         flex-direction: column-reverse;
         align-items: flex-start;
         background: none;
     }
-    .footer{
-        background: url("../../../../public/gradient.svg");
-    background-position: center center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-y: 40px;
-    padding-bottom: 30px;
+    .footer {
+        background: url('../../../../public/gradient.svg');
+        background-position: center center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-y: 40px;
+        padding-bottom: 30px;
     }
     .rightFooter {
-        /* flex-direction: column-reverse; */
         justify-content: flex-start;
         align-items: flex-start;
         gap: 20px;
-        /* border: 2px solid red; */
         width: 100%;
         justify-content: space-between;
     }

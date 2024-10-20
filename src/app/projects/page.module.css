@@ -1,8 +1,7 @@
-.project{
+.project {
     height: max-content;
 }
-.projectList{
-    /* border: 2px solid white; */
+.projectList {
     width: 80%;
     margin: auto;
     margin-top: 60px;
