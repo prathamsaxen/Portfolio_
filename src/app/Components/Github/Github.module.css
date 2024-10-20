@@ -1,5 +1,4 @@
 .container{
-    /* border: 2px solid white; */
     margin-top: 100px;
 }
 .mainContainer{
@@ -15,12 +14,8 @@
 }
 
 .chart{
-    /* border: 2px solid red; */
     margin-top: 32px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-/* .react-activity-calendar{
-    color: white !important;
-} */

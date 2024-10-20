@@ -1,4 +1,4 @@
-.TechCard{
+.TechCard {
     border: 2px solid red;
     min-width: 300px;
     max-width: 330px;
@@ -11,8 +11,7 @@
     align-items: center;
     flex-direction: column;
 }
-.info{
-    /* border: 2px solid red; */
+.info {
     width: 80%;
     position: relative;
     top: 60px;
@@ -20,16 +19,16 @@
     justify-content: space-between;
     align-self: center;
 }
-.info p:first-of-type{
-font-family: Inter;
-font-size: 20px;
-font-weight: 600;
-line-height: 24px;
-letter-spacing: 0em;
-text-align: left;
-color: rgba(255, 255, 255, 1);
+.info p:first-of-type {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
 }
-.info p:last-of-type{
+.info p:last-of-type {
     padding: 6px 12px 6px 12px;
     border-radius: 26px;
     border: 1px solid rgba(39, 37, 37, 1);
@@ -40,12 +39,12 @@ color: rgba(255, 255, 255, 1);
     letter-spacing: -0.006em;
     text-align: left;
 }
-.TechCard img{
+.TechCard img {
     width: 114px;
     height: 114px;
 }
 @media screen and (max-width: 767px) {
-    .TechCard{
+    .TechCard {
         flex-direction: row;
         height: max-content;
         width: 95%;
@@ -53,17 +52,17 @@ color: rgba(255, 255, 255, 1);
         border-radius: 16px;
         gap: 5px;
     }
-    .TechCard  img{
+    .TechCard img {
         width: 20%;
     }
-    .info{
+    .info {
         position: inherit;
         align-items: center;
     }
-    .info p:first-of-type{
+    .info p:first-of-type {
         font-size: 16px;
     }
-    .info p:last-of-type{
+    .info p:last-of-type {
         font-size: 11px;
     }
 }

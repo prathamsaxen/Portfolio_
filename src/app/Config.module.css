@@ -6,10 +6,8 @@
     left: 0;
     width: 100vw;
     height: 100vh;
-    /* border: 2px solid red; */
     background-image: url("../../public/unsplash.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* border: 2px solid red; */
 }

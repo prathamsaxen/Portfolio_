@@ -1,5 +1,4 @@
 .container{
-    /* border: 2px solid red; */
     width: 40%;
     margin: auto;
     display: flex;
@@ -10,7 +9,6 @@
     flex-wrap: wrap;
 }
 .container img{
-    /* border: 2px solid red; */
     width: 25px;
     height: 25px;
     transition: all 1s;

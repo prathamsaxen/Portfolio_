@@ -1,16 +1,9 @@
 .container{
-    /* border: 2px solid white; */
     width: 60%;
     margin: auto;
-    /* margin-top: 60px; */
     height: 500px;
-    /* gap: 150px; */
     border-radius: 12px;
     background: rgba(230, 230, 230, 1);
-    /* background-image:url("../../../../../public/contact/Error.svg") ;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 32px 32px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -27,7 +20,6 @@
     line-height: 39px;
     letter-spacing: 0em;
     text-align: left;
-    /* margin-top: 40px; */
     color: rgba(255, 255, 255, 1);
 
 }
